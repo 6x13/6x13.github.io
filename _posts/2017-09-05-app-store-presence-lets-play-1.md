@@ -26,12 +26,12 @@ tags:
 This is #1 of the how-to  series on custom store presence analysis and
 plotting using Python, Jupyter and lots of sciency-graphy libraries.
 
-[#1 - Let's Play: Scrape] [part-1]  
-[#2 - Let's Play: Cleanup] [part-2] \[ DONE \]  
-#3 - Let's Play: Optimize           \[ TODO \]  
-#4 - Let's Play: Analyze            \[ TODO \]  
-#5 - Let's Play: Visualize          \[ TODO \]  
-#6 - <strong>...
+- [x] [#1 - Let's Play: Scrape] [part-1]  
+- [x] [#2 - Let's Play: Cleanup] [part-2]  
+- [x] #3 - Let's Play: Optimize  
+- [ ] #4 - Let's Play: Analyze  
+- [ ] #5 - Let's Play: Visualize  
+- [ ] #6 - <strong>...
 ```
 
 [part-1]: http://blog.6x13.com/app-store-presence-lets-play-1/

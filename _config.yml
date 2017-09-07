@@ -1,4 +1,5 @@
 url: http://blog.6x13.com
 name: 6x13 Devlog
 description: Indie Game Studio
+theme: jekyll-theme-minimal
 plugins: ['jekyll-twitter-plugin']
