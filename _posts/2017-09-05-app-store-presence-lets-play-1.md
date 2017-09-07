@@ -1,6 +1,6 @@
 ---
-id: 1
-title: 'Store Presence on App Store #1 - Let's Play: Scrape'
+id: 0
+title: "Store Presence on App Store #1 - Let's Play: Scrape"
 date: 2017-09-05T19:11:40+00:00
 author: Kenan Bölükbaşı
 layout: post
@@ -27,21 +27,21 @@ tags:
 This is #1 of the how-to  series on custom store presence analysis and
 plotting using Python, Jupyter and lots of sciency-graphy libraries.
 
-[#1 - Let's Play: Scrape]  [part-1] \<\<.
-[#2 - Let's Play: Cleanup] [part-2] \[ DONE \]
- #3 - Let's Play: Optimize          \[ TODO \]
- #4 - Let's Play: Analyze           \[ TODO \]
- #5 - Let's Play: Visualize         \[ TODO \]
- #6 - <strong>...
+[#1 - Let's Play: Scrape] [part-1]  
+[#2 - Let's Play: Cleanup] [part-2] \[ DONE \]  
+#3 - Let's Play: Optimize          \[ TODO \]  
+#4 - Let's Play: Analyze           \[ TODO \]  
+#5 - Let's Play: Visualize         \[ TODO \]  
+#6 - <strong>...
 
-[part-1] http://blog.6x13.com/app-store-presence-lets-play-1/
-[part-2] http://blog.6x13.com/app-store-presence-lets-play-2/
+[part-1]: http://blog.6x13.com/app-store-presence-lets-play-1/
+[part-2]: http://blog.6x13.com/app-store-presence-lets-play-2/
 
-<img class="aligncenter" src="https://media.giphy.com/media/H0Yi2igIiIwy4/giphy.gif" alt="Preparing a business plan requires systematic procrastination: Store presence analytics!" width="500" height="281" />
+[Preparing a business plan  requires systematic procrastination: Store
+presence analytics!][jack]
+[jack]: https://media.giphy.com/media/H0Yi2igIiIwy4/giphy.gif
 
-> <p style="text-align: center;">
->   All work and no play makes Jack a dull boy.
-> </p>
+> All work and no play makes Jack a dull boy.
 
 Preparing  a business  plan requires  fourteen things:  a business,  a
 dozen cups of coffee and systematic procrastination.
@@ -49,12 +49,17 @@ dozen cups of coffee and systematic procrastination.
 I am sure  you can handle the  coffee and the business. So  for now, I
 will only try to help with the procrastination:
 
-> I need some insight into the App Store presence of our latest game, [Twiniwt](http://6x13.com/). I visit App Annie's _Featured_ page, as usual.
+> I need some insight into the  App Store presence of our latest game,
+> [Twiniwt] [6x13]. I visit App Annie's _Featured_ page, as usual.
 
-If you don't know about App Annie, [this is a good review of the service](http://www.businessofapps.com/guide/app-annie/).
+If you  don't know  about App  Annie, [this  is a  good review  of the
+service](aa-info).
+
+[6x13]: http://6x13.com/
+[aa-info]: http://www.businessofapps.com/guide/app-annie/
 
 Analytics  you find  on such  dedicated services  are good  as general
-performance metrics.   However, you might  want the data to  support a
+performance metrics.  However, you  might want the  data to  support a
 particular claim in  your business plan. The  freely available content
 is hardly useful for that. The signal  to noise ratio makes it hard to
 read. Besides, you can only filter the data.
@@ -62,15 +67,7 @@ read. Besides, you can only filter the data.
 We have to  do some ad-hoc data science and  visualization in order to
 get better results. Now, what was **data science**, again?
 
-<blockquote class="twitter-tweet" data-width="550">
-  <p lang="en" dir="ltr">
-    "A data scientist is a statistician who lives in San Francisco" <a href="https://t.co/NAftOI9jmJ">pic.twitter.com/NAftOI9jmJ</a> via <a href="https://twitter.com/smc90">@smc90</a>
-  </p>
-  
-  <p>
-    &mdash; Chris Dixon (@cdixon) <a href="https://twitter.com/cdixon/status/428914681911070720">January 30, 2014</a>
-  </p>
-</blockquote>
+{% twitter https://twitter.com/jeremyjarvis/status/428848527226437632 %}
 
 I  live  in  Istanbul  and  I prefer  a  budget  GNU/Linux  laptop  at
 work. Obviously, I  am no data scientist. Still,  some half-assed data
