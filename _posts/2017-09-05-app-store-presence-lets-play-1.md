@@ -29,9 +29,9 @@ plotting using Python, Jupyter and lots of sciency-graphy libraries.
 
 [#1 - Let's Play: Scrape]  [part-1] \<\<.
 [#2 - Let's Play: Cleanup] [part-2] \[ DONE \]
- #3 - Let's Play: Optimize           \[ TODO \]
- #4 - Let's Play: Analyze            \[ TODO \]
- #5 - Let's Play: Visualize          \[ TODO \]
+ #3 - Let's Play: Optimize          \[ TODO \]
+ #4 - Let's Play: Analyze           \[ TODO \]
+ #5 - Let's Play: Visualize         \[ TODO \]
  #6 - <strong>...
 
 [part-1] http://blog.6x13.com/app-store-presence-lets-play-1/
