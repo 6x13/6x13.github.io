@@ -1,10 +1,9 @@
 ---
 id: 0
 title: "Store Presence on App Store #1 - Let's Play: Scrape"
-date: 2017-09-05T19:11:40+00:00
+date: 2017-09-05
 author: Kenan Bölükbaşı
 layout: post
-guid: http://blog.6x13.com/?p=22
 permalink: /app-store-presence-lets-play-1/
 image: /static/analytics_feature.jpg
 categories:
@@ -23,21 +22,22 @@ tags:
   - store presence
   - twiniwt
 ---
-
+```
 This is #1 of the how-to  series on custom store presence analysis and
 plotting using Python, Jupyter and lots of sciency-graphy libraries.
 
 [#1 - Let's Play: Scrape] [part-1]  
 [#2 - Let's Play: Cleanup] [part-2] \[ DONE \]  
-#3 - Let's Play: Optimize          \[ TODO \]  
-#4 - Let's Play: Analyze           \[ TODO \]  
-#5 - Let's Play: Visualize         \[ TODO \]  
+#3 - Let's Play: Optimize           \[ TODO \]  
+#4 - Let's Play: Analyze            \[ TODO \]  
+#5 - Let's Play: Visualize          \[ TODO \]  
 #6 - <strong>...
+```
 
 [part-1]: http://blog.6x13.com/app-store-presence-lets-play-1/
 [part-2]: http://blog.6x13.com/app-store-presence-lets-play-2/
 
-[Preparing a business plan  requires systematic procrastination: Store
+![Preparing a business plan  requires systematic procrastination: Store
 presence analytics!][jack]
 [jack]: https://media.giphy.com/media/H0Yi2igIiIwy4/giphy.gif
 

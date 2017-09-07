@@ -1,3 +1,4 @@
 url: http://blog.6x13.com
 name: 6x13 Devlog
 description: Indie Game Studio
+plugins: ['jekyll-twitter-plugin']
