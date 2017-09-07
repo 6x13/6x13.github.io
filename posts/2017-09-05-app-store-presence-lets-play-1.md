@@ -67,6 +67,8 @@ read. Besides, you can only filter the data.
 We have to  do some ad-hoc data science and  visualization in order to
 get better results. Now, what was **data science**, again?
 
+{% twitter https://twitter.com/jeremyjarvis/status/428848527226437632 %}
+
 I  live  in  Istanbul  and  I prefer  a  budget  GNU/Linux  laptop  at
 work. Obviously, I  am no data scientist. Still,  some half-assed data
 science is better than none.
