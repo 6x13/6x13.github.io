@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="6x13 Games is an independent game development company located in İstanbul, Turkey. Developer of the globally featured puzzle title, Twiniwt, and 1FPS series.">
+    <meta name="keywords" content="twiniwt, 1fps, retro, 6x13games, kenanb, kenanbolukbasi, indie, gamedev, mobile">
+    <meta name="author" content="6x13 Games">
+
+    <title>6x13 Games</title>
+
+    <!-- OpenGraph -->
+    <meta name="og:type" content="website">
+    <meta name="og:title" content="6x13 Games">
+    <meta name="og:url" content="http://6x13.com/">
+    <meta name="og:image" content="http://6x13.com/res/profile.png">
+    <meta name="og:description" content="6x13 Games is an independent game development company located in İstanbul, Turkey.">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@6x13games">
+    <meta name="twitter:creator" content="@6x13games">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="http://6x13.com/" />
+    
+    <link rel="icon" href="favicon.png" />
+    <link rel="stylesheet" href="src/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="src/bootstrap-social.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Slabo+27px&subset=latin,latin-ext" type="text/css">
+    <script src="src/snap.svg-min.js"></script>
+    <style>
+      body {
+      padding-top: 100px;
+      background: #e6e6e6;
+      background-size: cover;
+      background-repeat: no-repeat;
+      display: compact;
+      }
+      @media (max-width: 979px) {
+      body {
+      padding-top: 25px;
+      }
+      }
+
+      .container .jumbotron.description {
+      background: #e6e6e6;
+      padding: 0px 20px 0px 20px;
+      font-family: 'Slabo 27px', serif;
+      text-align: justify;
+      text-justify: inter-word;
+      color: #1a1a1a;
+      }
+
+      .social {
+      padding: 10px;
+      margin: 10px 0px 10px 0px;
+      }
+      
+      #social-set {
+      text-align: right;
+      margin: 0px;
+      }
+
+      .game-header {
+      margin-top: 50px;
+      }
+
+      .container .jumbotron.game-card {
+      background-color: #e6e6e6;
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: relative;
+      padding-bottom: 65%;
+      border-radius: 15px;
+      border: 2px solid #1a1a1a;
+      }
+
+      #twiniwt-1 {
+      background-image: url('res/twiniwt-1.png');
+      }
+
+      #twiniwt-2 {
+      background-image: url('res/twiniwt-2.png');
+      }
+
+      #twiniwt-3 {
+      background-image: url('res/twiniwt-3.png');
+      }
+
+      #twiniwt-4 {
+      background-image: url('res/twiniwt-4.png');
+      }
+
+      #fastfood {
+      background-image: url('res/fastfood.png');
+      }
+
+      #invaders {
+      background-image: url('res/invaders.png');
+      }
+      
+      #vacuum {
+      background-image: url('res/vacuum.png');
+      }
+      
+      #graffiti {
+      background-image: url('res/graffiti.png');
+      }
+      
+      .card-desc {
+      position: absolute;
+      bottom: 0; left: 1.5%;
+      width: 97%;
+      padding-bottom: 9%;
+      }
+
+      .card-desc > table {
+      display: inline-block;
+      position: absolute;
+      top: 0; bottom: 0;
+      width: 100%;
+      vertical-align: middle;
+      text-align: center;
+      }
+
+      .store-link > img {
+      width: 95%;
+      }
+
+      .series {
+      text-align: right;
+      }
+
+      table.credits-tbl {
+      float: right;
+      border: 0px;
+      text-align: right;
+      }
+
+      td.credits-td {
+      padding: 2px 20px 2px 0px;
+      }
+
+      .card-desc > p {
+      display: inline-block;
+      position: absolute;
+      margin: auto;
+      top: 0; bottom: 0;
+      width: 100%;
+      text-align: center;
+      vertical-align: middle;
+      font-size: 9px;
+      text-justify: inter-word;
+      color: #1a1a1a;
+      }
+      @media (min-width: 480px) {
+      .card-desc > p {
+      font-size: 14px;
+      }
+      }
+
+      #footer {
+      padding: 2px 10px 2px 10px;
+      font-family: 'Slabo 27px', serif;
+      color: #1a1a1a;
+      }
+    </style>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <svg id="canvas" viewBox="0 0 540 260"></svg>
+          <script src="src/anim.js"></script>
+        </div>
+        <div class="col-md-9">
+          <div class="jumbotron description">
+            <p>6x13 Games  is an independent game  development company
+              located   in  İstanbul,   Turkey.   We  realize   fresh,
+              challenging and  entertaining ideas  through established
+              design  principles and  authentic art-styles  for mobile
+              and PC platforms. We support and actively use Free/Libre
+              and  Open   Source  technologies.<br>Developer   of  the
+              globally  featured  puzzle   title,  Twiniwt,  and  1FPS
+              Retro Game Series.<br>
+              <div style="font-weight:bold;">
+                <a href="http://blog.6x13.com/">[ DEVLOG ]</a>
+                | PRESSKIT:
+                <a href="/press/6x13games/en/"> [ EN ] </a>
+                <a href="/press/6x13games/tr/"> [ TR ] </a></div>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row social">
+        <p id="social-set">
+          <a class="btn btn-social-icon btn-github" href="https://www.twitter.com/6x13games">
+            <i class="fa fa-twitter"></i>
+          </a>
+          <a class="btn btn-social-icon btn-github" href="https://www.facebook.com/6x13games">
+            <i class="fa fa-facebook"></i>
+          </a>
+          <a class="btn btn-social-icon btn-github" href="https://www.github.com/6x13">
+            <i class="fa fa-github"></i>
+          </a>
+          <a class="btn btn-social-icon btn-github" href="mailto:contact@6x13.com">
+            <i class="fa fa-envelope"></i>
+          </a>
+        </p>
+      </div>
+
+      <div class="row game-header">
+        <div class="col-md-4"><img style="width:100%" src="res/twiniwt.png" /></div>
+        <div class="col-md-8 series">
+          <table class="credits-tbl">
+            <tr>
+              <td class="credits-td"></td>
+              <th><a href="twiniwt/credits.html">CREDITS</a></th>
+            </tr>
+            <tr>
+              <td class="credits-td">Project Leader, Game Designer, Developer, Multimedia Programmer, Artwork, UI & UX</td>
+              <th><a href="https://twitter.com/kenanbolukbasi">Kenan Bölükbaşı</a></th>
+            </tr>
+            <tr>
+              <td class="credits-td">Level & Progression Designer, Audio Designer, QA & Playtesting, Content Creator</td>
+              <th><a href="https://twitter.com/tughanyalgin">Tuğhan Yalgın</a></th>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <!-- Game card row -->
+      <div class="row">
+        <!-- Game card -->
+        <div class="col-md-6">
+          <div class="jumbotron game-card" id="twiniwt-1">
+            <div class="card-desc">
+              <table>
+                <tr>
+                  <td>
+                    <a class="store-link" href="https://itunes.apple.com/app/id1255251702">
+                      <img src="res/apple-store-badge-orig.png" alt="Download on the App Store" />
+                    <!-- <a class="store-link" href="#"> -->
+                    <!--   <img src="res/apple-store-badge-disabled.png" alt="Download on the App Store" /> -->
+                    </a>
+                  </td>
+                  <td>
+                    <a class="store-link" href="https://www.microsoft.com/store/apps/9nblggh4410f?ocid=badge">
+                      <img src="res/windows-store-badge-orig.png" alt="Get it from Microsoft" />
+                    <!-- <a class="store-link" href="#"> -->
+                    <!--   <img src="res/windows-store-badge-disabled.png" alt="Get it from Microsoft" /> -->
+                    </a>
+                  </td>
+                  <td>
+                    <a class="store-link" href="http://play.google.com/store/apps/details?id=store.x13.twiniwt&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+                      <img src="res/google-store-badge-orig.png" alt="Get it on Google Play" />
+                    <!-- <a class="store-link" href="#"> -->
+                    <!--   <img src="res/google-store-badge-disabled.png" alt="Get it on Google Play" /> -->
+                    </a>
+                  </td>
+                  <td>
+                    <a class="store-link" href="http://www.amazon.com/gp/mas/dl/android?asin=B074J7FDZH">
+                      <img src="res/amazon-store-badge-orig.png" alt="Available at Amazon" />
+                    <!-- <a class="store-link" href="#"> -->
+                    <!--   <img src="res/amazon-store-badge-disabled.png" alt="Available at Amazon" /> -->
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <!-- Game card ends. -->
+        <!-- Game card -->
+        <div class="col-md-6">
+          <div class="jumbotron game-card" id="twiniwt-2">
+            <div class="card-desc">
+              <p>If you move a block, its twin also moves symmetrically; but if you push the block with another, its twin won't move.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Game card ends. -->
+        <!-- Game card -->
+        <div class="col-md-6">
+          <div class="jumbotron game-card" id="twiniwt-3">
+            <div class="card-desc">
+              <p>With a variety of fun, diverse mechanics introduced as you progress. And even more to come!
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Game card ends. -->
+        <!-- Game card -->
+        <div class="col-md-6">
+          <div class="jumbotron game-card" id="twiniwt-4">
+            <div class="card-desc">
+              <p>Control and create the music of levels. Move the blocks, change the notes.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Game card ends. -->
+      </div>
+      <!-- Game card row ends. -->
+
+      <div class="row game-header">
+        <div class="col-md-6"><img style="width:75%" src="res/1fps.png" /></div>
+        <div class="col-md-6 series">
+          <table class="credits-tbl">
+            <tr>
+              <td class="credits-td">Artwork</td>
+              <th><a href="https://twitter.com/zelithx">Zeynep Özkan</a></th>
+            </tr>
+            <tr>
+              <td class="credits-td">Game Designer</td>
+              <th><a href="https://twitter.com/tughanyalgin">Tuğhan Yalgın</a></th>
+            </tr>
+            <tr>
+              <td class="credits-td">Project Leader, Developer, UI & UX</td>
+              <th><a href="https://twitter.com/kenanbolukbasi">Kenan Bölükbaşı</a></th>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <!-- Game card row -->
+      <div class="row">
+        <!-- Game card -->
+        <div class="col-md-6">
+          <div class="jumbotron game-card" id="fastfood">
+            <div class="card-desc">
+              <table>
+                <tr>
+                  <td>
+                    <a class="store-link" href="https://itunes.apple.com/app/id1177092771">
+                      <img src="res/apple-store-badge-orig.png" alt="Download on the App Store" />
+                    </a>
+                  </td>
+                  <td>
+                    <a class="store-link" href="https://www.microsoft.com/store/apps/9nblggh43n8s?ocid=badge">
+                      <img src="res/windows-store-badge-orig.png" alt="Get it from Microsoft" />
+                    </a>
+                  </td>
+                  <td>
+                    <a class="store-link" href="http://play.google.com/store/apps/details?id=store.x13.fastfood&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+                      <img src="res/google-store-badge-orig.png" alt="Get it on Google Play" />
+                    </a>
+                  </td>
+                  <td>
+                    <a class="store-link" href="http://www.amazon.com/gp/mas/dl/android?asin=B01N0GSSVX">
+                      <img src="res/amazon-store-badge-orig.png" alt="Available at Amazon" />
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <!-- Game card ends. -->
+        <!-- Game card -->
+        <div class="col-md-6">
+          <div class="jumbotron game-card" id="invaders">
+            <div class="card-desc">
+              <table>
+                <tr>
+                  <td>
+                    <a class="store-link" href="https://itunes.apple.com/app/id1177097252">
+                      <img src="res/apple-store-badge-orig.png" alt="Download on the App Store" />
+                    </a>
+                  </td>
+                  <td>
+                    <a class="store-link" href="https://www.microsoft.com/store/apps/9nblggh441ch?ocid=badge">
+                      <img src="res/windows-store-badge-orig.png" alt="Get it from Microsoft" />
+                    </a>
+                  </td>
+                  <td>
+                    <a class="store-link" href="http://play.google.com/store/apps/details?id=store.x13.invaders&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+                      <img src="res/google-store-badge-orig.png" alt="Get it on Google Play" />
+                    </a>
+                  </td>
+                  <td>
+                    <a class="store-link" href="http://www.amazon.com/gp/mas/dl/android?asin=B01NBAID8E">
+                      <img src="res/amazon-store-badge-orig.png" alt="Available at Amazon" />
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <!-- Game card ends. -->
+      </div>
+      <!-- Game card row ends. -->
+      <!-- Game card row -->      
+      <div class="row">
+        <!-- Game card -->
+        <div class="col-md-6">
+          <div class="jumbotron game-card" id="vacuum">
+            <div class="card-desc">
+              <table>
+                <tr>
+                  <td>
+                    <a class="store-link" href="https://itunes.apple.com/app/id1177099602">
+                      <img src="res/apple-store-badge-orig.png" alt="Download on the App Store" />
+                    </a>
+                  </td>
+                  <td>
+                    <a class="store-link" href="https://www.microsoft.com/store/apps/9nblggh441cj?ocid=badge">
+                      <img src="res/windows-store-badge-orig.png" alt="Get it from Microsoft" />
+                    </a>
+                  </td>
+                  <td>
+                    <a class="store-link" href="http://play.google.com/store/apps/details?id=store.x13.vacuum&utm_source=global_co&utm_medium=prtnr&utm_content=Mar2515&utm_campaign=PartBadge&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+                      <img src="res/google-store-badge-orig.png" alt="Get it on Google Play" />
+                    </a>
+                  </td>
+                  <td>
+                    <a class="store-link" href="http://www.amazon.com/gp/mas/dl/android?asin=B01N0GSIUD">
+                      <img src="res/amazon-store-badge-orig.png" alt="Available at Amazon" />
+                    </a>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <!-- Game card ends. -->
+
+        <!-- Game card -->
+        <div class="col-md-6">
+          <div class="jumbotron game-card" id="graffiti">
+            <div class="card-desc">
+              <p> COMING SOON
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Game card ends. -->
+      </div>
+      <!-- Game card row ends. -->
+      <div class="row" id="footer">© 2016 Kenan Bolukbasi 6x13 Games. All rights reserved.</div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="src/bootstrap.min.js"></script>
+
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-105984175-1', 'auto');
+  ga('send', 'pageview');
+	</script>
+  </body>
+</html>

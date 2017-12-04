@@ -1,0 +1,12 @@
+#+LANGUAGE: en
+#+OPTIONS: toc:nil h:4 html-postamble:nil html-preamble:t tex:t f:t
+#+OPTIONS: prop:("VERSION")
+#+HTML_DOCTYPE: <!DOCTYPE html>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Inconsolata:400,700" />
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/press/theme/css/htmlize.css"/>
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="/press/theme/css/readtheorg.css"/>
+
+#+HTML_HEAD: <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+#+HTML_HEAD: <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="/press/theme/lib/js/jquery.stickytableheaders.min.js"></script>
+#+HTML_HEAD: <script type="text/javascript" src="/press/theme/js/readtheorg.js"></script>

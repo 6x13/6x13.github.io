@@ -1,0 +1,207 @@
+#+TITLE: 1FPS Retro Oyun Serisi Basın Kiti
+#+AUTHOR: Kenan Bölükbaşı
+#+EMAIL: mailto:press@6x13.com
+#+SETUPFILE: ../../theme/setup.org
+#+LINK: root http://6x13.com/
+#+LINK: this http://6x13.com/press/1fps/
+# #+LINK: root http://localhost:8000/
+#+LINK: wikipedia https://en.wikipedia.org/wiki/
+#+LINK: twitter https://www.twitter.com/
+#+LINK: facebook https://www.facebook.com/
+
+#+TOC: headlines 3
+#+HTML: <div class="outline-2" id="meta">
+[[this:img/header.png]]
+#+ATTR_HTML: :style width:100%;
+| *Basın/İş İletişim* | {{{author}}} ({{{email}}})    |
+| *Tarih*             | {{{time(%Y-%m-%d %H:%M:%S)}}} |
+#+HTML: </div>
+
+* Genel Bilgiler
+- Yapımcı :: [[root:press/6x13games/tr/][6x13 Games]]
+- Çıkış Tarihi :: 1 Kasım 2016
+- Platformlar :: Tüm Store link'leri [[root][6x13.com]] adresinde mevcuttur.
+  - App Store (iOS)
+  - Google Play
+  - Amazon App Store
+  - Windows Store
+  - PC / Mac / Linux (WIP)
+- Websitesi :: [[root][6x13.com]]
+- Fiyatı :: Ücretsiz (Free to Play)
+- Basın/İş İletişim :: [[mailto:press@6x13.com][press@6x13.com]]
+
+* Tanıtım
+1FPS, retro  LCD oyun konsolları  ve dijital saatlerin  oyunlarından esinlenmiş
+bir oyun serisidir.  Kolay kontrolleri, bağımlılık yapan  oynanışı ve köklerine
+sadık kalan  göz doyurucu  görselleri ile  80'ler oyunculuğunun  eğlence odaklı
+anlayışını geri getirmeyi amaçlamaktadır.
+
+- Pek  çok farklı  oynanış seçeneği  sunan 1FPS:  Invaders'da düşman  gemilerin
+  saldırılarından kaçın  ve onları  kendi silahlarıyla vurun.  Tasarla seçeneği
+  ile oyun kurallarını kendiniz belirleyin.
+- Mini  karar   alma  simulatörü  1FPS:  Fastfood'da   karnı  acıkmış  uzaylıyı
+  hamburger, içecek ve kızartmalarla besleyin.
+- 1FPS: Vacuum'da  algı ve  sorun çözme hızınıza  meydan okuyun,  doğru hamleyi
+  yapan ilk siz olun.
+- Uzaylı  bir  sokak  sanatçısını oynadığınız  1FPS:  Graffiti'de  yakalanmadan
+  spreyinizi doldurun ve duvar yazınızı tamamlayın.
+
+Tüm  bunları  yalnızca iki  tuşla  yapabilirsiniz.  Peki yüksek  puanlarda  üst
+basamaklara  çıkabilecek, rekorunuzu  geliştirebilecek misiniz?  1FPS, 80'lerin
+retro   konsollarının  tüm   iyi   yanlarını  alıp,   onları  taze   fikirlerle
+birleştirerek  mobil  platformların  henüz kullanılmamış  potansiyelini  ortaya
+çıkartıyor.
+
+* Tarihçe
+Takımın elinden çıkan ilk yapım Nisan  2015'te Ludum Dare Game Jam için yapılan
+ve ileride  1FPS: Invaders halini  alacak olan Warigami idi.   Projenin anlamı,
+yeni oluşan  ekibe bir  ısınma şansı sunmasıydı.   Oyunun konsepti  80'lerin el
+konsollarındaki  özgün mekaniklerden  esinlenmeydi. Oynanışa  dair temel  fikir
+[[twitter:engingunesoglu][Engin Güneşoğlu]]'ndan geldi.   Projenin özgünlüğü ve
+mobil platformlara  yatkınlığını fark  eden ekip,  konsepte odaklanmaya  ve bir
+retro oyun serisi oluşturmaya karar verdiler.  Böylece 1FPS doğdu.  Serinin adı
+zamanın LCD  ekranlarındaki nostaljik  animasyonların gösterim  şekline esprili
+bir atıftır.
+
+1FPS aynı zamanda 6x13 Games'in tamamen bağımsız bir oyun şirketi olarak ortaya
+koyduğu ilk üründür.
+
+* Özellikler
+- 4 farklı 80'lerin konsol ve saat yapımlarından esinlenen, gittikçe hızlanan retro oyun:
+  - 1FPS: Invaders ile sonsuz olanaklar; "Tasarla" seçeneği ile oyunu istediğiniz şekilde oynayın, kuralları değiştirin veya "Rastgele" modu ile oyun sizin için şansınıza bir seviye seçsin.
+  - Hem eğitici hem eğlenceli 1FPS: Vacuum ile algınızı geliştirin.
+  - Mini karar alma simülatörü 1FPS: Fastfood ile eğlenin.
+
+- Tüm oyunları indirmesi ve oynaması tamamen bedava.
+- Düşük boyutlu ve mobil aletler için yüksek özenle optimize edilmiş.
+- Canlı renkler, göz doyuran görseller.
+- Nostaljik görsel efektler ve sesler.
+- Basit ve mobil dostu kontroller: Sadece iki tuş.
+- Saniyeler içinde nasıl oynanır öğrenebilirsiniz. Yoran tutorial'lar yoktur.
+- Sonsuz oynanış. Kazanabildiğiniz kadar çok puan kazanın ve rekorları kırın.
+
+* Projeler
+1FPS Serisi şirketin ilk projesidir.
+
+1FPS Serisinin ardından şirketimiz Twiniwt isimli özgün puzzle oyununu yayınlamıştır.
+
+Bu projenin basın kiti için:
+http://6x13.com/press/twiniwt/tr/
+
+İndirme bağlantıları için:
+http://6x13.com/
+
+* Videolar
+#+BEGIN_EXPORT html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6_0LmXXryac" frameborder="0" allowfullscreen></iframe>
+#+END_EXPORT
+
+* Oyunlar
+[[this:zip/screenshots.zip][Tüm ekran görüntülerini zip dosyası içinde indirin.]]
+
+[[this:zip/icons-logos.zip][Tüm ikon ve logoları zip dosyası içinde indirin.]]
+
+** 1FPS: Fastfood
+Galaksiler arası  hamburger dükkanında  çalışan bir  servis robotusunuz  ve çok
+acıkmış uzaylıya  siparişlerini ulaştırmanız  gerekiyor. 3 farklı  sipariş tipi
+var:  İçecek,  hamburger ve  patates  kızartması.   Uzaylının eliyle  hangisini
+sipariş  ettiğine  dikkat  etmeli  ve  o  siparişi  yere  düşmeden  ulaştırmaya
+(sektirmeye) özen göstermelisiniz.
+
+Yüksek     puan     kazanmak      istiyorsanız     diğer     siparişleri     de
+ulaştırmalısınız. Uzaylının siparişini düşürmemek can kaybetmenizi engellerken,
+diğer  siparişleri  düşürmenin  yüksek  puan kazanamama  dışında  bir  götürüsü
+yoktur. Dengeyi iyi ayarlayın!
+*** Logo & İkon
+| [[this:img/icon-fastfood.png]] | [[this:img/logo-fastfood.png]] |
+*** Ekran Görüntüleri
+| [[this:img/capture/01ff-fs8.png]]  | [[this:img/capture/02ff-fs8.png]]  |
+
+** 1FPS: Invaders
+Uzayda  geçen  bir  arcade  aksiyon   oyunu,  fakat  bir  önemli  farkla:  Ateş
+edemiyorsunuz! Fakat çift taraftan size atış yapan düşman gemilerinin birbirini
+vurmasını sağlayabilirsiniz. Oyunda puanınızı da böyle kazanıyorsunuz. Bir oyun
+iki  önemli  bölümden oluşuyor:  Arka  plan  mavi iken  saldırılardan  kaçıyor,
+olabildiğince   az   hasar   alarak   hayatta   kalmaya   ve   puan   kazanmaya
+çalışıyorsunuz. Kısa süren yeşil fazda  ise düşman roketlerini yiyerek canınızı
+iyileştirebiliyorsunuz.
+
+1FPS: Invaders  3 farklı oyun  modu ile  geliyor. Özellikle "Tasarla"  modu ile
+kendi   seviyelerinizi    oluşturabilir,   oyunun    mekaniklerini   gönlünüzce
+değiştirebilirsiniz.
+*** Logo & İkon
+| [[this:img/icon-invaders.png]] | [[this:img/logo-invaders.png]] |
+*** Ekran Görüntüleri
+| [[this:img/capture/01inv-fs8.png]] | [[this:img/capture/02inv-fs8.png]] |
+| [[this:img/capture/03inv-fs8.png]] | [[this:img/capture/04inv-fs8.png]] |
+
+** 1FPS: Vacuum
+Galaksiler arası eğitici bir matematik  yarışması. İki yarışmacıdan biri olarak
+oynadığınız oyunda amacınız basit  matematik sorularını rakibinizden önce doğru
+bir  şekilde çözmek.  Sonucu  büyük  olan hanginizse  buna  göre doğru  hamleyi
+yapmanız   gerekiyor.   Vacuum'da   yaptığınız    her   hamlenin   bir   sonucu
+var. Hatalarınız puanlarınıza ve bazı durumlarda can hakkınıza mal oluyor.
+
+Ana kural şu: İşlem sonucu büyük olan kazanır. Fakat bu sizin sonucunuz küçükse
+kaybettiğiniz anlamına tabi ki gelmiyor;  eğer rakibiniz sizi düşürme hamlesini
+yapmadan  önce  hareket  eder  ve  kaçma tuşuna  basarsanız  puan  kazanan  siz
+olursunuz. Benzer şekilde; rakibiniz  kaçmadan önce onu düşürmekte gecikirseniz
+işlem sonucu büyük olan tarafın siz olmasının da bir anlamı kalmaz.
+
+Vacuum'u   oynadıkça   ve   geliştikçe  soruları   düşündüğünüzden   de   hızlı
+çözebildiğinizi görecek ve kendinizi şaşırtacaksınız.
+*** Logo & İkon
+| [[this:img/icon-vacuum.png]] | [[this:img/logo-vacuum.png]] |
+*** Ekran Görüntüleri
+| [[this:img/capture/01vc-fs8.png]]  | [[this:img/capture/02vc-fs8.png]]  |
+
+* Geri Bildirim ve Yorumlar
+Nice game, nice homage to that handheld game and watch type games. *-sebasRez*
+
+This really felt like playing the handheld LCD games I grew up with. Nice! *-rjhelms*
+
+Cool idea. I like how hectic it gets as it speeds up. *-2Bit*
+
+Really smooth gameplay and fun, nice job! *-UannaFF*
+
+I simply love the style of your graphics, nice job! *-keddelzz*
+
+* Basında Ayrılan Yer
+- Revive las viejas Game & Watch con '1FPS Retro Game' ::
+retroManiac, [[http://retromaniacmagazine.blogspot.com.tr/2016/12/revive-las-viejas-game-watch-con-1fps.html][RetroManiac Magazine]]
+
+* Ticari Kullanım İzni
+6x13  Games, bu  sayfanın içeriklerinin  ticari veya  ticari olmayan  amaçlarla
+basında  yayınlanmasına izin  vermektedir. Bu  sayfadaki içerikleri  bünyesinde
+bulunduran kar  amaçlı yayınlara kanunen  ve açıkça 6x13 Games  tarafından izin
+verilmektedir.
+
+* Ek Bağlantılar
+#+BEGIN_EXPORT html
+<p>
+<a href="http://www.twitter.com/kenanbolukbasi"><i class="fa fa-twitter"></i> Kenan Bölükbaşı</a><br />
+<a href="http://www.twitter.com/tughanyalgin"><i class="fa fa-twitter"></i> Tuğhan Yalgın</a><br />
+<a href="http://www.twitter.com/zelithx"><i class="fa fa-twitter"></i> Zeynep Özkan</a>
+</p>
+#+END_EXPORT
+
+* 6x13 Games Hakkında
+** Kısa Tanıtım Metni
+6x13 Games, güncel olarak Kenan Bölükbaşı ve Tuğhan Yalgın'dan oluşan,
+İstanbul-Türkiye'de bulunan bağımsız bir oyun yapım stüdyosudur.
+** Ek Bilgi
+6x13 Games hakkında daha fazla bilgi, logo ve ilgili materyale [[root:press/6x13games/tr/][buradan]] ulaşabilirsiniz.
+
+* Ekip
+- Kenan Bölükbaşı :: Kurucu, Geliştirici, 6x13 Games
+- Tuğhan Yalgın :: Oyun Tasarımcısı, 6x13 Games
+- Zeynep Özkan :: Konsept Tasarımcısı
+
+* İletişim
+- Web Sitesi :: [[root][6x13.com]]
+
+- E-posta :: [[mailto:contact@6x13.com][contact@6x13.com]]
+
+- Twitter :: [[twitter:6x13games][@6x13games]]
+
+- Facebook :: [[facebook:6x13games][6x13games]]

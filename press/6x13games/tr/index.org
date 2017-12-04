@@ -1,0 +1,133 @@
+#+TITLE: 6x13 Games Basın Kiti
+#+AUTHOR: Kenan Bölükbaşı
+#+EMAIL: mailto:press@6x13.com
+#+SETUPFILE: ../../theme/setup.org
+#+LINK: root http://6x13.com/
+#+LINK: this http://6x13.com/press/6x13games/
+# #+LINK: root http://localhost:8000/
+#+LINK: wikipedia https://en.wikipedia.org/wiki/
+#+LINK: twitter https://www.twitter.com/
+#+LINK: facebook https://www.facebook.com/
+
+#+TOC: headlines 3
+#+HTML: <div class="outline-2" id="meta">
+[[this:img/header.png]]
+#+ATTR_HTML: :style width:100%;
+| *Basın/İş İletişim* | {{{author}}} ({{{email}}})    |
+| *Tarih*                | {{{time(%Y-%m-%d %H:%M:%S)}}} |
+#+HTML: </div>
+
+* Genel Bilgiler
+- Yapımcı :: [[root:press/6x13games/tr/][6x13 Games]]
+  - İstanbul, Türkiye
+- Kuruluş :: 12 Temmuz 2016
+- Websitesi :: [[root][6x13.com]]
+- Basın/İş İletişim :: [[mailto:press@6x13.com][press@6x13.com]]
+- Sosyal Medya Hesapları :: 
+  - Twitter - [[twitter:6x13games][@6x13games]]
+  - Facebook - [[facebook:6x13games][6x13games]]
+- Yayınlanan Oyunlar ::
+  - [[root:press/twiniwt/tr/][Twiniwt]]
+  - [[root:press/1fps/tr/][1FPS: Fastfood]]
+  - [[root:press/1fps/tr/][1FPS: Invaders]]
+  - [[root:press/1fps/tr/][1FPS: Vacuum]]
+- Adres :: 
+Konak Mah. Izmir Yolu Cad. 93 7 \\
+16110 Nilufer/BURSA \\
+Turkey
+- Telefon :: +90 (542) 5362620
+
+* Tanıtım
+6x13  Games,  güncel  olarak  Kenan  Bölükbaşı  ve  Tuğhan  Yalgın'dan  oluşan,
+İstanbul-Türkiye'de bulunan bağımsız bir oyun yapım stüdyosudur. Odağımız yeni,
+ilgi çekici ve  eğlenceli fikirleri sağlam ilkelere bağlı bir  tasarım ve özgün
+bir sanat diliyle mobil ve PC platformlarında hayata geçirmektir.
+
+Oyuncu odaklı bir  ekip olarak amacımız, ince elenmiş ürünlerle  mümkün olan en
+sorunsuz   oyun  tecrübelerini   sunmaktır.  Özgür   yazılım  ve   açık  kaynak
+teknolojileri desteklemekle beraber aktif olarak da kullanmaktayız.
+
+* Tarihçe
+6x13 Games, Kenan Bölükbaşı'nın kişisel projesi olarak 2015 başında ilk adımını
+atmıştır.  Tuğhan Yalgın  bu  dönemde kendisine  henüz  açıklanmayan bir  proje
+üzerindeki yoğun çalışması sırasında yaptıkları  oyun tasarımı teorisi ve etiği
+hakkındaki uzun tartışmalarda eşlik etmiştir.
+
+#+BEGIN_QUOTE
+Stüdyo ismini Kenan'ın favori yazı tipinden alıyor. Adı "misc-fixed 6x13" ya da
+kısaca  "fixed" olarak  da  geçen  6x13, on  yıllar  boyu programcıların  düşük
+çözünürlüklü ekranlarda kod yazmasını sağlayan -X Window sistemi ile dağıtılan-
+efsanevi  [[wikipedia:Fixed_(typeface)][yazı   tipi]]'dir.   Günümüzün  görüntü
+teknolojisiyle dahi insanların  sevdiği ve kullandığı bir yazı  tipidir. Biz de
+bu ismi azdan çoğu yaratmanın sembolü olarak benimsedik.
+#+END_QUOTE
+
+Tuğhan Yalgın  ve Zeynep Özkan  Nisan'da ekibe tam zamanlı  katıldılar. Takımın
+elinden  ilk çıkan  yapım Ludum  Dare Game  Jam için  yapılan ve  ileride 1FPS:
+Invaders halini alacak olan Warigami idi. Projenin anlamı yeni oluşan ekibe bir
+ısınma  şansı sunmasıydı.  Oyunun  konsepti 80'lerin  el konsollarındaki  özgün
+mekaniklerden esinlenmeydi.
+
+Toplam 1  yıl civarı  süren yapım,  yazılım ekipmanlarının  dikkatle seçilmesi,
+yapımda yardımcı  açık kaynak araçların oluşturulması  gibi süreçlerin ardından
+ekip ilk oyunları olan 1FPS serisini Kasım 2016'da yayınladı.
+
+6x13'ün seriye görsel dilini kazandıran Zeynep ile mutlu iş birliği 1FPS serisi
+ile sınırlıydı. 2016 itibarıyla 6x13 Games Kenan Bölükbaşı ve Tuğhan Yalgın'dan
+oluşmaktadır.
+
+* Projeler
+- [[root:press/twiniwt/tr/][Twiniwt]]
+- [[root:press/1fps/tr/][1FPS Oyun Serisi]]
+
+* Videolar
+#+BEGIN_EXPORT html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6_0LmXXryac" frameborder="0" allowfullscreen></iframe>
+#+END_EXPORT
+
+* TODO Görseller
+
+* Logo & İkon
+[[this:zip/logo.zip][Tüm logo çeşitlerini indirin.]]
+
+[[this:img/logo.png]]
+
+* Ödüller & Tanınırlık
+- Twiniwt AppStore  Türkiye'de anasayfada, dünyada da  Puzzle ve Board
+  kategorilerinde öne çıkanlar listelerinde yer aldı.
+
+* Basında Ayrılan Yer
+- Revive las viejas Game & Watch con '1FPS Retro Game' ::
+retroManiac, [[http://retromaniacmagazine.blogspot.com.tr/2016/12/revive-las-viejas-game-watch-con-1fps.html][RetroManiac Magazine]]
+
+* Ticari Kullanım İzni
+6x13  Games, bu  sayfanın içeriklerinin  ticari veya  ticari olmayan  amaçlarla
+basında  yayınlanmasına izin  vermektedir. Bu  sayfadaki içerikleri  bünyesinde
+bulunduran kar  amaçlı yayınlara kanunen  ve açıkça 6x13 Games  tarafından izin
+verilmektedir.
+
+* Ek Bağlantılar
+#+BEGIN_EXPORT html
+<p>
+<a href="http://www.twitter.com/kenanbolukbasi"><i class="fa fa-twitter"></i> Kenan Bölükbaşı</a><br />
+<a href="http://www.twitter.com/tughanyalgin"><i class="fa fa-twitter"></i> Tuğhan Yalgın</a><br />
+</p>
+#+END_EXPORT
+
+* Ekip
+- Kenan Bölükbaşı ::
+  - Kurucu
+  - Geliştirici
+  - Oyun Tasarımcısı
+  - Grafik Tasarımcı
+- Tuğhan Yalgın ::
+  - Oyun Tasarımcısı
+
+* İletişim
+- Web Sitesi :: [[root][6x13.com]]
+
+- E-posta :: [[mailto:contact@6x13.com][contact@6x13.com]]
+
+- Twitter :: [[twitter:6x13games][@6x13games]]
+
+- Facebook :: [[facebook:6x13games][6x13games]]

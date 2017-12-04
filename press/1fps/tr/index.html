@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 2017-08-02 Wed 21:00 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1FPS Retro Oyun Serisi Basın Kiti</title>
+<meta name="generator" content="Org mode">
+<meta name="author" content="Kenan Bölükbaşı">
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,700|Inconsolata:400,700" />
+<link rel="stylesheet" type="text/css" href="/press/theme/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="/press/theme/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="/press/theme/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="/press/theme/js/readtheorg.js"></script>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">1FPS Retro Oyun Serisi Basın Kiti</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#org705e308">1. Genel Bilgiler</a></li>
+<li><a href="#orgcba1d53">2. Tanıtım</a></li>
+<li><a href="#org3179a3f">3. Tarihçe</a></li>
+<li><a href="#org1d0c911">4. Özellikler</a></li>
+<li><a href="#orgc899c8f">5. Projeler</a></li>
+<li><a href="#orge403137">6. Videolar</a></li>
+<li><a href="#orgdaf4beb">7. Oyunlar</a>
+<ul>
+<li><a href="#org65bc6a5">7.1. 1FPS: Fastfood</a>
+<ul>
+<li><a href="#org0e905b5">7.1.1. Logo &amp; İkon</a></li>
+<li><a href="#orga1a29d2">7.1.2. Ekran Görüntüleri</a></li>
+</ul>
+</li>
+<li><a href="#org6a57f25">7.2. 1FPS: Invaders</a>
+<ul>
+<li><a href="#org3e25087">7.2.1. Logo &amp; İkon</a></li>
+<li><a href="#org7c5c439">7.2.2. Ekran Görüntüleri</a></li>
+</ul>
+</li>
+<li><a href="#org1ad65c5">7.3. 1FPS: Vacuum</a>
+<ul>
+<li><a href="#orga048aed">7.3.1. Logo &amp; İkon</a></li>
+<li><a href="#org82184cf">7.3.2. Ekran Görüntüleri</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org0697bf1">8. Geri Bildirim ve Yorumlar</a></li>
+<li><a href="#orgc7e10a9">9. Basında Ayrılan Yer</a></li>
+<li><a href="#org903552c">10. Ticari Kullanım İzni</a></li>
+<li><a href="#orgefeaf41">11. Ek Bağlantılar</a></li>
+<li><a href="#orgcbe5768">12. 6x13 Games Hakkında</a>
+<ul>
+<li><a href="#org0b9ffd5">12.1. Kısa Tanıtım Metni</a></li>
+<li><a href="#org371a6fd">12.2. Ek Bilgi</a></li>
+</ul>
+</li>
+<li><a href="#orgf6fe3dd">13. Ekip</a></li>
+<li><a href="#orgfa16d5f">14. İletişim</a></li>
+</ul>
+</div>
+</div>
+<div class="outline-2" id="meta">
+
+<div class="figure">
+<p><img src="http://6x13.com/press/1fps/img/header.png" alt="header.png">
+</p>
+</div>
+<table style="width:100%;">
+
+
+<colgroup>
+<col  class="org-left">
+
+<col  class="org-left">
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left"><b>Basın/İş İletişim</b></td>
+<td class="org-left">Kenan Bölükbaşı (<a href="mailto:press@6x13.com">mailto:press@6x13.com</a>)</td>
+</tr>
+
+<tr>
+<td class="org-left"><b>Tarih</b></td>
+<td class="org-left">2017-08-02 21:00:57</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<div id="outline-container-org705e308" class="outline-2">
+<h2 id="org705e308"><span class="section-number-2">1</span> Genel Bilgiler</h2>
+<div class="outline-text-2" id="text-1">
+<dl class="org-dl">
+<dt>Yapımcı</dt><dd><a href="http://6x13.com/press/6x13games/tr/">6x13 Games</a></dd>
+<dt>Çıkış Tarihi</dt><dd>1 Kasım 2016</dd>
+<dt>Platformlar</dt><dd>Tüm Store link'leri <a href="http://6x13.com/">6x13.com</a> adresinde mevcuttur.
+<ul class="org-ul">
+<li>App Store (iOS)</li>
+<li>Google Play</li>
+<li>Amazon App Store</li>
+<li>Windows Store</li>
+<li>PC / Mac / Linux (WIP)</li>
+</ul></dd>
+<dt>Websitesi</dt><dd><a href="http://6x13.com/">6x13.com</a></dd>
+<dt>Fiyatı</dt><dd>Ücretsiz (Free to Play)</dd>
+<dt>Basın/İş İletişim</dt><dd><a href="mailto:press@6x13.com">press@6x13.com</a></dd>
+</dl>
+</div>
+</div>
+
+<div id="outline-container-orgcba1d53" class="outline-2">
+<h2 id="orgcba1d53"><span class="section-number-2">2</span> Tanıtım</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+1FPS, retro  LCD oyun konsolları  ve dijital saatlerin  oyunlarından esinlenmiş
+bir oyun serisidir.  Kolay kontrolleri, bağımlılık yapan  oynanışı ve köklerine
+sadık kalan  göz doyurucu  görselleri ile  80'ler oyunculuğunun  eğlence odaklı
+anlayışını geri getirmeyi amaçlamaktadır.
+</p>
+
+<ul class="org-ul">
+<li>Pek  çok farklı  oynanış seçeneği  sunan 1FPS:  Invaders'da düşman  gemilerin
+saldırılarından kaçın  ve onları  kendi silahlarıyla vurun.  Tasarla seçeneği
+ile oyun kurallarını kendiniz belirleyin.</li>
+<li>Mini  karar   alma  simulatörü  1FPS:  Fastfood'da   karnı  acıkmış  uzaylıyı
+hamburger, içecek ve kızartmalarla besleyin.</li>
+<li>1FPS: Vacuum'da  algı ve  sorun çözme hızınıza  meydan okuyun,  doğru hamleyi
+yapan ilk siz olun.</li>
+<li>Uzaylı  bir  sokak  sanatçısını oynadığınız  1FPS:  Graffiti'de  yakalanmadan
+spreyinizi doldurun ve duvar yazınızı tamamlayın.</li>
+</ul>
+
+<p>
+Tüm  bunları  yalnızca iki  tuşla  yapabilirsiniz.  Peki yüksek  puanlarda  üst
+basamaklara  çıkabilecek, rekorunuzu  geliştirebilecek misiniz?  1FPS, 80'lerin
+retro   konsollarının  tüm   iyi   yanlarını  alıp,   onları  taze   fikirlerle
+birleştirerek  mobil  platformların  henüz kullanılmamış  potansiyelini  ortaya
+çıkartıyor.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org3179a3f" class="outline-2">
+<h2 id="org3179a3f"><span class="section-number-2">3</span> Tarihçe</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+Takımın elinden çıkan ilk yapım Nisan  2015'te Ludum Dare Game Jam için yapılan
+ve ileride  1FPS: Invaders halini  alacak olan Warigami idi.   Projenin anlamı,
+yeni oluşan  ekibe bir  ısınma şansı sunmasıydı.   Oyunun konsepti  80'lerin el
+konsollarındaki  özgün mekaniklerden  esinlenmeydi. Oynanışa  dair temel  fikir
+<a href="https://www.twitter.com/engingunesoglu">Engin Güneşoğlu</a>'ndan geldi.   Projenin özgünlüğü ve
+mobil platformlara  yatkınlığını fark  eden ekip,  konsepte odaklanmaya  ve bir
+retro oyun serisi oluşturmaya karar verdiler.  Böylece 1FPS doğdu.  Serinin adı
+zamanın LCD  ekranlarındaki nostaljik  animasyonların gösterim  şekline esprili
+bir atıftır.
+</p>
+
+<p>
+1FPS aynı zamanda 6x13 Games'in tamamen bağımsız bir oyun şirketi olarak ortaya
+koyduğu ilk üründür.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org1d0c911" class="outline-2">
+<h2 id="org1d0c911"><span class="section-number-2">4</span> Özellikler</h2>
+<div class="outline-text-2" id="text-4">
+<ul class="org-ul">
+<li>4 farklı 80'lerin konsol ve saat yapımlarından esinlenen, gittikçe hızlanan retro oyun:
+<ul class="org-ul">
+<li>1FPS: Invaders ile sonsuz olanaklar; "Tasarla" seçeneği ile oyunu istediğiniz şekilde oynayın, kuralları değiştirin veya "Rastgele" modu ile oyun sizin için şansınıza bir seviye seçsin.</li>
+<li>Hem eğitici hem eğlenceli 1FPS: Vacuum ile algınızı geliştirin.</li>
+<li>Mini karar alma simülatörü 1FPS: Fastfood ile eğlenin.</li>
+</ul></li>
+
+<li>Tüm oyunları indirmesi ve oynaması tamamen bedava.</li>
+<li>Düşük boyutlu ve mobil aletler için yüksek özenle optimize edilmiş.</li>
+<li>Canlı renkler, göz doyuran görseller.</li>
+<li>Nostaljik görsel efektler ve sesler.</li>
+<li>Basit ve mobil dostu kontroller: Sadece iki tuş.</li>
+<li>Saniyeler içinde nasıl oynanır öğrenebilirsiniz. Yoran tutorial'lar yoktur.</li>
+<li>Sonsuz oynanış. Kazanabildiğiniz kadar çok puan kazanın ve rekorları kırın.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgc899c8f" class="outline-2">
+<h2 id="orgc899c8f"><span class="section-number-2">5</span> Projeler</h2>
+<div class="outline-text-2" id="text-5">
+<p>
+1FPS Serisi şirketin ilk projesidir.
+</p>
+
+<p>
+1FPS Serisinin ardından şirketimiz Twiniwt isimli özgün puzzle oyununu yayınlamıştır.
+</p>
+
+<p>
+Bu projenin basın kiti için:
+<a href="http://6x13.com/press/twiniwt/tr/">http://6x13.com/press/twiniwt/tr/</a>
+</p>
+
+<p>
+İndirme bağlantıları için:
+<a href="http://6x13.com/">http://6x13.com/</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge403137" class="outline-2">
+<h2 id="orge403137"><span class="section-number-2">6</span> Videolar</h2>
+<div class="outline-text-2" id="text-6">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6_0LmXXryac" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+
+<div id="outline-container-orgdaf4beb" class="outline-2">
+<h2 id="orgdaf4beb"><span class="section-number-2">7</span> Oyunlar</h2>
+<div class="outline-text-2" id="text-7">
+<p>
+<a href="http://6x13.com/press/1fps/zip/screenshots.zip">Tüm ekran görüntülerini zip dosyası içinde indirin.</a>
+</p>
+
+<p>
+<a href="http://6x13.com/press/1fps/zip/icons-logos.zip">Tüm ikon ve logoları zip dosyası içinde indirin.</a>
+</p>
+</div>
+
+<div id="outline-container-org65bc6a5" class="outline-3">
+<h3 id="org65bc6a5"><span class="section-number-3">7.1</span> 1FPS: Fastfood</h3>
+<div class="outline-text-3" id="text-7-1">
+<p>
+Galaksiler arası  hamburger dükkanında  çalışan bir  servis robotusunuz  ve çok
+acıkmış uzaylıya  siparişlerini ulaştırmanız  gerekiyor. 3 farklı  sipariş tipi
+var:  İçecek,  hamburger ve  patates  kızartması.   Uzaylının eliyle  hangisini
+sipariş  ettiğine  dikkat  etmeli  ve  o  siparişi  yere  düşmeden  ulaştırmaya
+(sektirmeye) özen göstermelisiniz.
+</p>
+
+<p>
+Yüksek     puan     kazanmak      istiyorsanız     diğer     siparişleri     de
+ulaştırmalısınız. Uzaylının siparişini düşürmemek can kaybetmenizi engellerken,
+diğer  siparişleri  düşürmenin  yüksek  puan kazanamama  dışında  bir  götürüsü
+yoktur. Dengeyi iyi ayarlayın!
+</p>
+</div>
+<div id="outline-container-org0e905b5" class="outline-4">
+<h4 id="org0e905b5"><span class="section-number-4">7.1.1</span> Logo &amp; İkon</h4>
+<div class="outline-text-4" id="text-7-1-1">
+<table>
+
+
+<colgroup>
+<col  class="org-left">
+
+<col  class="org-left">
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left"><img src="http://6x13.com/press/1fps/img/icon-fastfood.png" alt="icon-fastfood.png"></td>
+<td class="org-left"><img src="http://6x13.com/press/1fps/img/logo-fastfood.png" alt="logo-fastfood.png"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-orga1a29d2" class="outline-4">
+<h4 id="orga1a29d2"><span class="section-number-4">7.1.2</span> Ekran Görüntüleri</h4>
+<div class="outline-text-4" id="text-7-1-2">
+<table>
+
+
+<colgroup>
+<col  class="org-left">
+
+<col  class="org-left">
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left"><img src="http://6x13.com/press/1fps/img/capture/01ff-fs8.png" alt="01ff-fs8.png"></td>
+<td class="org-left"><img src="http://6x13.com/press/1fps/img/capture/02ff-fs8.png" alt="02ff-fs8.png"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org6a57f25" class="outline-3">
+<h3 id="org6a57f25"><span class="section-number-3">7.2</span> 1FPS: Invaders</h3>
+<div class="outline-text-3" id="text-7-2">
+<p>
+Uzayda  geçen  bir  arcade  aksiyon   oyunu,  fakat  bir  önemli  farkla:  Ateş
+edemiyorsunuz! Fakat çift taraftan size atış yapan düşman gemilerinin birbirini
+vurmasını sağlayabilirsiniz. Oyunda puanınızı da böyle kazanıyorsunuz. Bir oyun
+iki  önemli  bölümden oluşuyor:  Arka  plan  mavi iken  saldırılardan  kaçıyor,
+olabildiğince   az   hasar   alarak   hayatta   kalmaya   ve   puan   kazanmaya
+çalışıyorsunuz. Kısa süren yeşil fazda  ise düşman roketlerini yiyerek canınızı
+iyileştirebiliyorsunuz.
+</p>
+
+<p>
+1FPS: Invaders  3 farklı oyun  modu ile  geliyor. Özellikle "Tasarla"  modu ile
+kendi   seviyelerinizi    oluşturabilir,   oyunun    mekaniklerini   gönlünüzce
+değiştirebilirsiniz.
+</p>
+</div>
+<div id="outline-container-org3e25087" class="outline-4">
+<h4 id="org3e25087"><span class="section-number-4">7.2.1</span> Logo &amp; İkon</h4>
+<div class="outline-text-4" id="text-7-2-1">
+<table>
+
+
+<colgroup>
+<col  class="org-left">
+
+<col  class="org-left">
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left"><img src="http://6x13.com/press/1fps/img/icon-invaders.png" alt="icon-invaders.png"></td>
+<td class="org-left"><img src="http://6x13.com/press/1fps/img/logo-invaders.png" alt="logo-invaders.png"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org7c5c439" class="outline-4">
+<h4 id="org7c5c439"><span class="section-number-4">7.2.2</span> Ekran Görüntüleri</h4>
+<div class="outline-text-4" id="text-7-2-2">
+<table>
+
+
+<colgroup>
+<col  class="org-left">
+
+<col  class="org-left">
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left"><img src="http://6x13.com/press/1fps/img/capture/01inv-fs8.png" alt="01inv-fs8.png"></td>
+<td class="org-left"><img src="http://6x13.com/press/1fps/img/capture/02inv-fs8.png" alt="02inv-fs8.png"></td>
+</tr>
+
+<tr>
+<td class="org-left"><img src="http://6x13.com/press/1fps/img/capture/03inv-fs8.png" alt="03inv-fs8.png"></td>
+<td class="org-left"><img src="http://6x13.com/press/1fps/img/capture/04inv-fs8.png" alt="04inv-fs8.png"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org1ad65c5" class="outline-3">
+<h3 id="org1ad65c5"><span class="section-number-3">7.3</span> 1FPS: Vacuum</h3>
+<div class="outline-text-3" id="text-7-3">
+<p>
+Galaksiler arası eğitici bir matematik  yarışması. İki yarışmacıdan biri olarak
+oynadığınız oyunda amacınız basit  matematik sorularını rakibinizden önce doğru
+bir  şekilde çözmek.  Sonucu  büyük  olan hanginizse  buna  göre doğru  hamleyi
+yapmanız   gerekiyor.   Vacuum'da   yaptığınız    her   hamlenin   bir   sonucu
+var. Hatalarınız puanlarınıza ve bazı durumlarda can hakkınıza mal oluyor.
+</p>
+
+<p>
+Ana kural şu: İşlem sonucu büyük olan kazanır. Fakat bu sizin sonucunuz küçükse
+kaybettiğiniz anlamına tabi ki gelmiyor;  eğer rakibiniz sizi düşürme hamlesini
+yapmadan  önce  hareket  eder  ve  kaçma tuşuna  basarsanız  puan  kazanan  siz
+olursunuz. Benzer şekilde; rakibiniz  kaçmadan önce onu düşürmekte gecikirseniz
+işlem sonucu büyük olan tarafın siz olmasının da bir anlamı kalmaz.
+</p>
+
+<p>
+Vacuum'u   oynadıkça   ve   geliştikçe  soruları   düşündüğünüzden   de   hızlı
+çözebildiğinizi görecek ve kendinizi şaşırtacaksınız.
+</p>
+</div>
+<div id="outline-container-orga048aed" class="outline-4">
+<h4 id="orga048aed"><span class="section-number-4">7.3.1</span> Logo &amp; İkon</h4>
+<div class="outline-text-4" id="text-7-3-1">
+<table>
+
+
+<colgroup>
+<col  class="org-left">
+
+<col  class="org-left">
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left"><img src="http://6x13.com/press/1fps/img/icon-vacuum.png" alt="icon-vacuum.png"></td>
+<td class="org-left"><img src="http://6x13.com/press/1fps/img/logo-vacuum.png" alt="logo-vacuum.png"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org82184cf" class="outline-4">
+<h4 id="org82184cf"><span class="section-number-4">7.3.2</span> Ekran Görüntüleri</h4>
+<div class="outline-text-4" id="text-7-3-2">
+<table>
+
+
+<colgroup>
+<col  class="org-left">
+
+<col  class="org-left">
+</colgroup>
+<tbody>
+<tr>
+<td class="org-left"><img src="http://6x13.com/press/1fps/img/capture/01vc-fs8.png" alt="01vc-fs8.png"></td>
+<td class="org-left"><img src="http://6x13.com/press/1fps/img/capture/02vc-fs8.png" alt="02vc-fs8.png"></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org0697bf1" class="outline-2">
+<h2 id="org0697bf1"><span class="section-number-2">8</span> Geri Bildirim ve Yorumlar</h2>
+<div class="outline-text-2" id="text-8">
+<p>
+Nice game, nice homage to that handheld game and watch type games. <b>-sebasRez</b>
+</p>
+
+<p>
+This really felt like playing the handheld LCD games I grew up with. Nice! <b>-rjhelms</b>
+</p>
+
+<p>
+Cool idea. I like how hectic it gets as it speeds up. <b>-2Bit</b>
+</p>
+
+<p>
+Really smooth gameplay and fun, nice job! <b>-UannaFF</b>
+</p>
+
+<p>
+I simply love the style of your graphics, nice job! <b>-keddelzz</b>
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc7e10a9" class="outline-2">
+<h2 id="orgc7e10a9"><span class="section-number-2">9</span> Basında Ayrılan Yer</h2>
+<div class="outline-text-2" id="text-9">
+<dl class="org-dl">
+<dt>Revive las viejas Game &amp; Watch con '1FPS Retro Game'</dt><dd></dd>
+</dl>
+<p>
+retroManiac, <a href="http://retromaniacmagazine.blogspot.com.tr/2016/12/revive-las-viejas-game-watch-con-1fps.html">RetroManiac Magazine</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org903552c" class="outline-2">
+<h2 id="org903552c"><span class="section-number-2">10</span> Ticari Kullanım İzni</h2>
+<div class="outline-text-2" id="text-10">
+<p>
+6x13  Games, bu  sayfanın içeriklerinin  ticari veya  ticari olmayan  amaçlarla
+basında  yayınlanmasına izin  vermektedir. Bu  sayfadaki içerikleri  bünyesinde
+bulunduran kar  amaçlı yayınlara kanunen  ve açıkça 6x13 Games  tarafından izin
+verilmektedir.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgefeaf41" class="outline-2">
+<h2 id="orgefeaf41"><span class="section-number-2">11</span> Ek Bağlantılar</h2>
+<div class="outline-text-2" id="text-11">
+<p>
+<a href="http://www.twitter.com/kenanbolukbasi"><i class="fa fa-twitter"></i> Kenan Bölükbaşı</a><br />
+<a href="http://www.twitter.com/tughanyalgin"><i class="fa fa-twitter"></i> Tuğhan Yalgın</a><br />
+<a href="http://www.twitter.com/zelithx"><i class="fa fa-twitter"></i> Zeynep Özkan</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgcbe5768" class="outline-2">
+<h2 id="orgcbe5768"><span class="section-number-2">12</span> 6x13 Games Hakkında</h2>
+<div class="outline-text-2" id="text-12">
+</div><div id="outline-container-org0b9ffd5" class="outline-3">
+<h3 id="org0b9ffd5"><span class="section-number-3">12.1</span> Kısa Tanıtım Metni</h3>
+<div class="outline-text-3" id="text-12-1">
+<p>
+6x13 Games, güncel olarak Kenan Bölükbaşı ve Tuğhan Yalgın'dan oluşan,
+İstanbul-Türkiye'de bulunan bağımsız bir oyun yapım stüdyosudur.
+</p>
+</div>
+</div>
+<div id="outline-container-org371a6fd" class="outline-3">
+<h3 id="org371a6fd"><span class="section-number-3">12.2</span> Ek Bilgi</h3>
+<div class="outline-text-3" id="text-12-2">
+<p>
+6x13 Games hakkında daha fazla bilgi, logo ve ilgili materyale <a href="http://6x13.com/press/6x13games/tr/">buradan</a> ulaşabilirsiniz.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgf6fe3dd" class="outline-2">
+<h2 id="orgf6fe3dd"><span class="section-number-2">13</span> Ekip</h2>
+<div class="outline-text-2" id="text-13">
+<dl class="org-dl">
+<dt>Kenan Bölükbaşı</dt><dd>Kurucu, Geliştirici, 6x13 Games</dd>
+<dt>Tuğhan Yalgın</dt><dd>Oyun Tasarımcısı, 6x13 Games</dd>
+<dt>Zeynep Özkan</dt><dd>Konsept Tasarımcısı</dd>
+</dl>
+</div>
+</div>
+
+<div id="outline-container-orgfa16d5f" class="outline-2">
+<h2 id="orgfa16d5f"><span class="section-number-2">14</span> İletişim</h2>
+<div class="outline-text-2" id="text-14">
+<dl class="org-dl">
+<dt>Web Sitesi</dt><dd><a href="http://6x13.com/">6x13.com</a></dd>
+
+<dt>E-posta</dt><dd><a href="mailto:contact@6x13.com">contact@6x13.com</a></dd>
+
+<dt>Twitter</dt><dd><a href="https://www.twitter.com/6x13games">@6x13games</a></dd>
+
+<dt>Facebook</dt><dd><a href="https://www.facebook.com/6x13games">6x13games</a></dd>
+</dl>
+</div>
+</div>
+</div>
+</body>
+</html>

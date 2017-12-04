@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://6x13.com/</loc>
+  <lastmod>2017-08-19T17:51:14+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://blog.6x13.com/</loc>
+  <lastmod>2017-08-19T17:26:05+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://6x13.com/press/6x13games/en/</loc>
+  <lastmod>2017-08-18T17:26:05+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://6x13.com/press/6x13games/tr/</loc>
+  <lastmod>2017-08-18T17:26:10+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://6x13.com/twiniwt/credits.html</loc>
+  <lastmod>2017-07-25T20:58:52+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://6x13.com/press/twiniwt/en/</loc>
+  <lastmod>2017-08-18T17:26:21+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://6x13.com/press/1fps/en/</loc>
+  <lastmod>2017-08-02T21:05:35+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://6x13.com/press/twiniwt/tr/</loc>
+  <lastmod>2017-08-18T17:26:26+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://6x13.com/press/1fps/tr/</loc>
+  <lastmod>2017-08-02T21:05:41+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+</urlset>

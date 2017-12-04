@@ -1,0 +1,202 @@
+#+TITLE: 1FPS Retro Game Series Press Kit
+#+AUTHOR: Kenan Bölükbaşı
+#+EMAIL: mailto:press@6x13.com
+#+SETUPFILE: ../../theme/setup.org
+#+LINK: root http://6x13.com/
+#+LINK: this http://6x13.com/press/1fps/
+# #+LINK: root http://localhost:8000/
+#+LINK: wikipedia https://en.wikipedia.org/wiki/
+#+LINK: twitter https://www.twitter.com/
+#+LINK: facebook https://www.facebook.com/
+
+#+TOC: headlines 3
+#+HTML: <div class="outline-2" id="meta">
+[[this:img/header.png]]
+#+ATTR_HTML: :style width:100%;
+| *Press / Business Contact* | {{{author}}} ({{{email}}})    |
+| *Date*                     | {{{time(%Y-%m-%d %H:%M:%S)}}} |
+#+HTML: </div>
+
+* Factsheet
+- Developer :: [[root:press/6x13games/en/][6x13 Games]]
+  - Based in İstanbul, Turkey
+- Release Date :: November 1, 2016
+- Platforms :: All store links available at [[root][6x13.com]].
+  - App Store (iOS)
+  - Google Play
+  - Amazon App Store
+  - Windows Store
+  - PC / Mac / Linux (WIP)
+- Website :: [[root][6x13.com]]
+- Price :: Free to Play
+- Press / Business Contant :: [[mailto:press@6x13.com][press@6x13.com]]
+
+* Description
+1FPS is a  series of retro handheld  console / watch inspired  games. It brings
+back  the fun  oriented mentality  of  80s with  very easy  to grasp  controls,
+endless  addictive gameplay,  and complements  those with  pleasing to  look at
+visuals which stay loyal to its conceptual roots.
+
+- Dodge the enemy spaceship attacks and make them shoot each other in the fully
+  customizable world of 1FPS: Invaders.
+- Feed  the hungry  alien on  time  with burgers,  drinks, and  chips in  1FPS:
+  Fastfood.
+- Challenge your  perception and  be the first  one to make  the right  move in
+  1FPS: Vacuum.
+- Spray paint on  the walls and refill  your spray without getting  caught as a
+  space artist in 1FPS: Graffiti.
+
+All of those  you can do with only  two buttons.  But can you  beat the highest
+score, or improve  your previous one? 1FPS takes everything  that is right with
+the  80s’ retro  consoles,  combines that  with fresh  ideas  and the  untapped
+potential of today’s mobile platforms.
+
+* History
+1FPS series originally  started in Ludum Dare  Game Jam in April  2015 with the
+jam entry named Warigami - later renamed  to 1FPS: Invaders. It was intended as
+a warm-up exercise for  the newly formed team. The concept  was inspired by the
+unique gameplay mechanics of the 80s' handheld consoles. The core gameplay idea
+came  from  [[twitter:engingunesoglu][Engin  Güneşoğlu]].  Upon  realizing  the
+fresh  and mobile  friendly gameplay  of  the jam  entry, the  team decided  to
+concentrate on the style for a while and turn it into a series.  Thus, 1FPS was
+born.  The name is a humorous reference to its nostalgic LCD screen animations.
+
+1FPS also means the debut for 6x13 Games as a truly independent game studio.
+
+* Features
+- 4 different retro watch inspired games from slow to high-paced action.
+  - Endless possibilities;  customize your  gameplay in any  way you  want with
+    1FPS: Invaders, or let the game pick up a random setting for you.
+  - Educational gameplay that improves your intuition with 1FPS: Vacuum.
+  - Pacey decision making fun with 1FPS: Fastfood.
+- All _completely free_ to download and play.
+- Lightweight and highly optimized for mobile devices.
+- Beautiful colors, pleasing to look at visuals.
+- Nostalgic visual and sound effects.
+- Simple and mobile friendly controls; just two buttons.
+- Learn how to play in seconds; no overwhelming tutorials.
+- Endless gameplay; go as far as you can and beat the highest scores.
+
+* Projects
+1FPS Series is the first project of the company.
+
+After 1FPS Series, we released Twiniwt, the genre-defining symmetrical movement puzzle.
+
+You may also find Twiniwt press kit at:
+http://6x13.com/press/twiniwt/en/
+
+And their download links for various app stores at:
+http://6x13.com/
+
+* Videos
+#+BEGIN_EXPORT html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6_0LmXXryac" frameborder="0" allowfullscreen></iframe>
+#+END_EXPORT
+
+* Games
+[[this:zip/screenshots.zip][Download all screenshots in a zip.]]
+
+[[this:zip/icons-logos.zip][Download all icons and logos in a zip.]]
+
+** 1FPS: Fastfood
+You are a service robot who works in an intergalactic fast food store. There is
+a very hungry  alien who keeps ordering  3 different kinds of  fast food: Soda,
+fries, burgers. You should watch the alien's  hand, and try not to drop what it
+orders.
+
+You should deliver (bounce) the order not to lose hit points, and deliver extra
+food to earn  points. It is a  simple quick desicion making game  which may get
+complicated as it gets faster.
+
+*** Logo & Icon
+| [[this:img/icon-fastfood.png]] | [[this:img/logo-fastfood.png]] |
+*** Screenshots
+| [[this:img/capture/01ff-fs8.png]]  | [[this:img/capture/02ff-fs8.png]]  |
+
+** 1FPS: Invaders
+An action arcade  game in space with  one big difference: You  can't shoot! But
+you can make the  enemy ships shoot each other as they try  to hit you instead,
+and that's how you earn points. Game has two phases: Blue Phase where you dodge
+the attacks,  and survive. And short  Green Phase where you  can replenish your
+health with the enemy missiles.
+
+1FPS:  Invaders comes  with 3  different  game modes.  It also  gives you  many
+customization options in  which you can set  up your own levels,  play with the
+game mechanics as you like.
+
+*** Logo & Icon
+| [[this:img/icon-invaders.png]] | [[this:img/logo-invaders.png]] |
+*** Screenshots
+| [[this:img/capture/01inv-fs8.png]] | [[this:img/capture/02inv-fs8.png]] |
+| [[this:img/capture/03inv-fs8.png]] | [[this:img/capture/04inv-fs8.png]] |
+
+** 1FPS: Vacuum
+An educational, intergalactic  mathematics contest. You play as one  of the two
+contestants. The aim is to solve  basic math quizzes before your opponent does,
+compare whose result is bigger, and  then take action accordingly. Every action
+you take in Vacuum  has a consequence. Mistakes will cost  you points, and even
+hit points.
+
+The main rule is: bigger result wins. But that doesn't mean all is lost if your
+result is lower, you can "dodge" your opponent's move if you're fast. Likewise,
+having the bigger result means nothing,  if your opponent dodges you before you
+discard first. As you keep playing, you'll  start to be amazed at yourself that
+how faster you can solve than you think.
+
+*** Logo & Icon
+| [[this:img/icon-vacuum.png]] | [[this:img/logo-vacuum.png]] |
+*** Screenshots
+| [[this:img/capture/01vc-fs8.png]]  | [[this:img/capture/02vc-fs8.png]]  |
+
+* Feedback & Comments
+
+Nice game, nice homage to that handheld game and watch type games. *-sebasRez*
+
+This really felt like playing the handheld LCD games I grew up with. Nice! *-rjhelms*
+
+Cool idea. I like how hectic it gets as it speeds up. *-2Bit*
+
+Really smooth gameplay and fun, nice job! *-UannaFF*
+
+I simply love the style of your graphics, nice job! *-keddelzz*
+
+* Press Coverage
+- Revive las viejas Game & Watch con '1FPS Retro Game' ::
+retroManiac, [[http://retromaniacmagazine.blogspot.com.tr/2016/12/revive-las-viejas-game-watch-con-1fps.html][RetroManiac Magazine]]
+
+* Monetization Permission
+6x13 Games allows for the contents of  1FPS Game Series to be published through
+video  broadcasting services  for  any commercial  or non-commercial  purposes.
+Monetization  of videos  created containing  assets  from 1FPS  Game Series  is
+legally and explicitly allowed by 6x13 Games.
+
+* Additional Links
+#+BEGIN_EXPORT html
+<p>
+<a href="http://www.twitter.com/kenanbolukbasi"><i class="fa fa-twitter"></i> Kenan Bölükbaşı</a><br />
+<a href="http://www.twitter.com/tughanyalgin"><i class="fa fa-twitter"></i> Tuğhan Yalgın</a><br />
+<a href="http://www.twitter.com/zelithx"><i class="fa fa-twitter"></i> Zeynep Özkan</a>
+</p>
+#+END_EXPORT
+
+* About 6x13 Games
+** Boilerplate
+6x13 Games  is an independent game  studio currently formed of  Kenan Bölükbaşı
+and Tuğhan Yalgın, located in Istanbul, Turkey.
+** More Information
+More  information on  6x13  Games,  our logo  &  relevant  media are  available
+[[root:press/6x13games/en/][here]].
+
+* Team
+- Kenan Bölükbaşı :: Founder, Developer, 6x13 Games
+- Tuğhan Yalgın :: Game Designer, 6x13 Games
+- Zeynep Özkan :: Concept Artist
+
+* Contact
+- Web :: [[root][6x13.com]]
+
+- E-mail :: [[mailto:contact@6x13.com][contact@6x13.com]]
+
+- Twitter :: [[twitter:6x13games][@6x13games]]
+
+- Facebook :: [[facebook:6x13games][6x13games]]

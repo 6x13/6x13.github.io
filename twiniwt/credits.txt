@@ -1,0 +1,90 @@
+© 2017 Kenan Bolukbasi 6x13 Games. All rights reserved.
+
+See below for credits, and information regarding any licensed material used in product.
+
+Credits
+-------
+
+Kenan Bölükbaşı (Founder, 6x13 Games)
+- Project Leader
+- Game Designer
+- Developer
+- Multimedia Programmer
+- Graphic Designer
+- UI & UX Designer
+
+Tuğhan Yalgın (6x13 Games)
+- Level Designer
+- Progression Designer
+- Audio Designer
+- QA & Playtesting
+- Content Creator
+
+
+Thanks
+------
+
+Wind Sound:
+Mark DiAngelo
+CC Attribution 3.0
+http://soundbible.com/1810-Wind.html
+
+Tree Silhouette Detail:
+GDJ
+Public Domain
+https://openclipart.org/detail/222226/mountains-silhouette
+
+Tree Silhouette Detail:
+GDJ
+Public Domain
+https://openclipart.org/detail/164341/mountain-view-from-poland
+
+Leaf Sound:
+TinyWorlds
+Public Domain
+https://opengameart.org/content/different-steps-on-wood-stone-leaves-gravel-and-mud
+
+Level Up Sounds:
+wobbleboxx.com
+Public Domain
+https://opengameart.org/content/level-up-power-up-coin-get-13-sounds
+
+Tutorial Visual:
+lmproulx
+Public Domain
+https://openclipart.org/detail/123325/presentation
+
+Chess (Difficulty) Symbols:
+DG-RA
+Public Domain
+https://openclipart.org/detail/275666/poster-chess-patterns-poster-patrones-ajedrez-de-colores
+
+Stars:
+freedo
+Public Domain
+https://openclipart.org/detail/3394/wand-with-stars
+
+Stopwatch:
+Rob Fenwitch
+Public Domain
+https://openclipart.org/detail/153577/stopwatch
+
+Sad Face:
+qubodup
+Public Domain
+https://openclipart.org/detail/28768/sad-face
+
+Watercolor Texture:
+abattoir
+Public Domain
+http://abattoir.deviantart.com/art/Watercolor-Texture-01-5880085
+
+Alien Lines Font:
+Mauricio Malacay
+Public Domain
+http://www.dafont.com/alien-lines.font
+
+Ubuntu Condensed Font:
+Canonical Ltd.
+Ubuntu Font Licence
+http://font.ubuntu.com/licence/

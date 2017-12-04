@@ -1,0 +1,226 @@
+#+TITLE: Twiniwt Press Kit
+#+AUTHOR: Kenan Bölükbaşı
+#+EMAIL: mailto:press@6x13.com
+#+SETUPFILE: ../../theme/setup.org
+#+LINK: root http://6x13.com/
+#+LINK: this http://6x13.com/press/twiniwt/
+# #+LINK: root http://localhost:8000/
+# #+LINK: this http://localhost:8000/press/twiniwt/
+#+LINK: wikipedia https://en.wikipedia.org/wiki/
+#+LINK: twitter https://www.twitter.com/
+#+LINK: facebook https://www.facebook.com/
+
+#+TOC: headlines 3
+#+HTML: <div class="outline-2" id="meta">
+[[this:img/header.png]]
+#+ATTR_HTML: :style width:100%;
+| *Press / Business Contact* | {{{author}}} ({{{email}}})    |
+| *Date*                     | {{{time(%Y-%m-%d)}}}     |
+#+HTML: </div>
+
+* Factsheet
+- Developer :: [[root:press/6x13games/en/][6x13 Games]]
+  - Based in İstanbul, Turkey
+- Release Date :: August 3, 2017
+- Platforms :: All store links available at [[root][6x13.com]].
+  - App Store (iOS - macOS)
+  - Google Play
+  - Amazon App Store
+  - Windows Store
+  - PC / Mac / Linux (WIP)
+- Recognition :: Globally Featured on Puzzle and Board categories.
+- Website :: [[root][6x13.com]]
+- Price :: Free to Play
+- Press / Business Contant :: [[mailto:press@6x13.com][press@6x13.com]]
+
+* Description
+Twiniwt is an elegant,  genre-defining symmetrical movement puzzle. As
+you solve the hundreds of puzzles,  you also make and change the music
+of the levels.
+
+Symmetry is  going to be  both your friend  and your enemy  within the
+game's more  than 250  levels. If you  move a block,  its twin  on the
+other region also moves symmetrically; but  if you push the block with
+another one,  its twin  won't move.  It is easier  when the  twins and
+their targets  are positioned symmetrically  the same. But  when their
+positions are different,  things get tricky. That is when  you need to
+push the blocks  with the other ones in order  to fix target alignment
+among twins.
+
+Additionally, the regions  of the game board are circular.  If a block
+is  moved or  pushed further  the  borders, it  ends up  at the  other
+side. This  adds even more  depth to the  puzzle; you should  see each
+region as an infinite grid, and evaluate accordingly.
+
+Throughout  the  hundreds  of  levels, you  encounter  different  game
+mechanics that add up to the variety, ie:
+- Asymmetrical boards  that utilize region circularity  in a different
+  way.
+- Levels  with up  to  4 regions,  and 5  different  blocks that  will
+  challenge your perception.
+- Restricted blocks that can only move to certain directions.
+- Inactive blocks that can only be pushed.
+- Locking targets that turns their blocks immovable.
+- Timed challenges that leave little space to think.
+- Collectibles that give you much needed bonus turns.
+
+Levels  of  Twiniwt  are   designed  with  non-linear  progression  in
+mind.  Altough it  is  best to  follow the  order  in the  early-game,
+solving 7 out of  10 levels is enough to unlock  the next chapter. You
+can always  go back and face  those more challenging levels  later, if
+you wish to do so.
+
+Artwork is influenced  by 80's retro game-art  for parallax background
+as well as early 20th century De Stijl movement for color palette.
+
+* History
+In spring  of 2015,  6x13 was  working on 1FPS:  Retro Game  Series, a
+modest  (yet fun)  testbed  for  the framework  to  be  used in  their
+following titles.
+
+In a meeting during development,  Tuğhan Yalgın suggested working on a
+casual puzzle in  order to reach a broader audiance  first, instead of
+working  on the  initially planned  niche title.   In response,  Kenan
+Bölükbaşı  came up  with the  idea  of Twiniwt,  describing the  board
+structure and core mechanics of interaction.
+
+Quick  prototyping sessions  have  shown much  potential  for fun  and
+addictive gameplay, as  well as large space for  puzzle variations and
+addition of complementary mechanics.
+
+Nearly two months passed discussing  the play value and implementation
+costs of potential complementary mechanics,  as well as ensuring their
+interaction  with core  mechanics. It  took  tons of  test levels  and
+brainstorms on edge cases to make the game rock solid, on paper.
+
+After  that,  the team  shifted  their  focus  back on  finishing  the
+framework  and  1FPS  titles.   After  completing  the  framework  and
+releasing 1FPS in November 2016, development of Twiniwt continued with
+full pace.
+
+Finally,  two years  and  thousands of  daily  indie struggles  later,
+Twiniwt was done.
+
+* Features
+- Only two rules ::
+If you  move a block,  its twin also  moves symmetrically; but  if you
+push the block with another, its twin won't move.
+
+- 250+ handcrafted levels ::
+With  a   variety  of  fun,   diverse  mechanics  introduced   as  you
+progress. Gamaplay mechanics are rock-solid, emergent and fun.
+
+- The music is you ::
+Control and  create the music of  levels. Move the blocks,  change the
+notes.
+
+- No wait mechanisms ::
+Play whenever you want, as long as you want.
+
+- Non-linear gameplay ::
+Unlock chapters, pick the level you want to play.
+
+- High replay value ::
+All puzzles have  multiple solutions. How you solve is  up to you. You
+can even beat the designer's solution!
+
+- Beautiful visuals ::
+Artwork is  influenced by 80's  retro game-art  as well as  early 20th
+century De Stijl movement.
+
+* Projects
+Prior  to  Twiniwt,  6x13  has   released  1FPS:  Retro  Game  Series,
+consisting of 3 retro handheld console / watch inspired games:
+- 1FPS: Fastfood
+- 1FPS: Invaders
+- 1FPS: Vacuum
+
+You may also find their respective press kit at:
+http://6x13.com/press/1fps/en/
+
+And their download links for various app stores at:
+http://6x13.com/
+
+* Videos
+#+BEGIN_EXPORT html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LrCJdl_sFNo" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9zNaNOoVYHs" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/e0Jt83_G9k4" frameborder="0" allowfullscreen></iframe>
+#+END_EXPORT
+
+* Logo & Icon
+[[this:zip/icons-logos.zip][Download icon and logo in a zip.]]
+
+| [[this:img/icon-twiniwt.png]] | [[this:img/logo-twiniwt.png]] |
+
+* Screenshots
+[[this:zip/screenshots.zip][Download all screenshots in a zip.]]
+
+| [[this:img/capture/01tw-fs8.png]] | [[this:img/capture/02tw-fs8.png]] |
+| [[this:img/capture/03tw-fs8.png]] | [[this:img/capture/04tw-fs8.png]] |
+| [[this:img/capture/05tw-fs8.png]] | [[this:img/capture/06tw-fs8.png]] |
+
+* Awards & Recognition
+- Globally featured  in the  AppStore Puzzle  and Board  categories as
+  well as the AppStore Turkey homepage.
+
+* Feedback & Comments
+- Smart, unique and  fun. Art is awesome, level design  & game play is
+  flawless. I can't stop playing!
+  - Duygu Çakmak, Creative Assembly
+
+- Bringing a  different perspective  to the  genre. Brief  but thought
+  igniting levels. Super  creative soundtrack. Fun to  play in between
+  things. Strongly recommended for puzzle lovers.
+  - Deniz Arın, ASML
+
+- Perfect time killer!
+  - Alexander Kamentsev, Creative Assembly
+
+* Monetization Permission
+6x13 Games allows for the contents  of Twiniwt to be published through
+video  broadcasting  services  for any  commercial  or  non-commercial
+purposes.   Monetization  of  videos created  containing  assets  from
+Twiniwt is legally and explicitly allowed by 6x13 Games.
+
+* Additional Links
+#+BEGIN_EXPORT html
+<p>
+<a href="http://www.twitter.com/kenanbolukbasi"><i class="fa fa-twitter"></i> Kenan Bölükbaşı</a><br />
+<a href="http://www.twitter.com/tughanyalgin"><i class="fa fa-twitter"></i> Tuğhan Yalgın</a><br />
+</p>
+#+END_EXPORT
+
+* About 6x13 Games
+** Boilerplate
+6x13 Games  is an independent game  studio currently formed of  Kenan Bölükbaşı
+and Tuğhan Yalgın, located in Istanbul, Turkey.
+
+** More Information
+More  information on  6x13  Games,  our logo  &  relevant  media are  available
+[[root:press/6x13games/en/][here]].
+
+* Team
+- Kenan Bölükbaşı :: Founder, 6x13 Games
+  - Project Leader
+  - Game Designer
+  - Developer
+  - Multimedia Programmer
+  - Graphic Designer
+  - UI & UX Designer
+
+- Tuğhan Yalgın :: 6x13 Games
+  - Level Designer
+  - Progression Designer
+  - Audio Designer
+  - QA & Playtesting
+  - Content Creator
+
+* Contact
+- Web :: [[root][6x13.com]]
+
+- E-mail :: [[mailto:contact@6x13.com][contact@6x13.com]]
+
+- Twitter :: [[twitter:6x13games][@6x13games]]
+
+- Facebook :: [[facebook:6x13games][6x13games]]

@@ -1,0 +1,133 @@
+#+TITLE: 6x13 Games Press Kit
+#+AUTHOR: Kenan Bölükbaşı
+#+EMAIL: mailto:press@6x13.com
+#+SETUPFILE: ../../theme/setup.org
+#+LINK: root http://6x13.com/
+#+LINK: this http://6x13.com/press/6x13games/
+# #+LINK: root http://localhost:8000/
+#+LINK: wikipedia https://en.wikipedia.org/wiki/
+#+LINK: twitter https://www.twitter.com/
+#+LINK: facebook https://www.facebook.com/
+
+#+TOC: headlines 3
+#+HTML: <div class="outline-2" id="meta">
+[[this:img/header.png]]
+#+ATTR_HTML: :style width:100%;
+| *Press / Business Contact* | {{{author}}} ({{{email}}})    |
+| *Date*                     | {{{time(%Y-%m-%d %H:%M:%S)}}} |
+#+HTML: </div>
+
+* Factsheet
+- Developer :: [[root:press/6x13games/en/][6x13 Games]]
+  - Based in İstanbul, Turkey
+- Founding Date :: July 12, 2016
+- Website :: [[root][6x13.com]]
+- Press / Business Contant :: [[mailto:press@6x13.com][press@6x13.com]]
+- Social :: 
+  - Twitter - [[twitter:6x13games][@6x13games]]
+  - Facebook - [[facebook:6x13games][6x13games]]
+- Releases ::
+  - [[root:press/twiniwt/en/][Twiniwt]]
+  - [[root:press/1fps/en/][1FPS: Fastfood]]
+  - [[root:press/1fps/en/][1FPS: Invaders]]
+  - [[root:press/1fps/en/][1FPS: Vacuum]]
+- Address :: 
+Konak Mah. Izmir Yolu Cad. 93 7 \\
+16110 Nilufer/BURSA \\
+Turkey
+- Phone :: +90 (542) 5362620
+
+* Description
+6x13 Games  is an independent game  studio currently formed of  Kenan Bölükbaşı
+and Tuğhan Yalgın,  located in Istanbul, Turkey. We  realize fresh, challenging
+and  entertaining ideas  through  established design  principles and  authentic
+art-styles for mobile and PC platforms. 
+
+We are  gamer-centric, we aim to  deliver refined products and  offer smoothest
+gaming experiences possible.   We support and actively use  Free/Libre and Open
+Source technologies.
+
+* History
+6x13 Games began as a solo project of Kenan Bölükbaşı by the beginning of 2015.
+The  non-stop  work on  a  -  yet to  be  announced  - title  was  occasionally
+accompanied  by long  game design  theory  and ethics  discussions with  Tuğhan
+Yalgın.
+
+#+BEGIN_QUOTE
+The  studio gets  its  name from  Kenan's favourite  font.   6x13 (also  called
+"misc-fixed   6x13",    or   simply   "fixed")   is    the   legendary   bitmap
+[[wikipedia:Fixed_(typeface)][font]]  -distributed  with  X  server-  that  has
+helped developers  write code  with low-res displays,  for decades.   Even with
+display technologies of  today, people still love it.  We embraced the
+name as a symbol of doing so much with so little, for so long.
+#+END_QUOTE
+
+Tuğhan and Zeynep Özkan joined full-time in April.  They collaborated  on Ludum Dare
+Game  Jam  with  the  jam  entry  named  Warigami  -  later  renamed  to  1FPS:
+Invaders. It was intended as a warm-up  exercise for the newly formed team. The
+concept was  inspired by  the unique  gameplay mechanics  of the  80s' handheld
+consoles.
+
+After about a year of game  development, careful curation of the software stack
+and  development of  open source  tools to  aid game  making process,  the team
+released their debut titles, 1FPS series, in November 2016.
+
+6x13's  happy collaboration  with Zeynep  was limited  to the  first four  1FPS
+titles. As  of early 2016,  6x13 Games consists  of Kenan Bölükbaşı  and Tuğhan
+Yalgın.
+
+* Projects
+- [[root:press/twiniwt/en/][Twiniwt]]
+- [[root:press/1fps/en/][1FPS Game Series]]
+
+* Videos
+#+BEGIN_EXPORT html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6_0LmXXryac" frameborder="0" allowfullscreen></iframe>
+#+END_EXPORT
+
+* TODO Images
+
+* Logo & Icon
+[[this:zip/logo.zip][Download all logo variations in a zip.]]
+
+[[this:img/logo.png]]
+
+* Awards & Recognition
+- Twiniwt  is  globally featured  in  the  AppStore Puzzle  and  Board
+  categories as well as the AppStore Turkey homepage.
+
+* Press Coverage
+- Revive las viejas Game & Watch con '1FPS Retro Game' ::
+retroManiac, [[http://retromaniacmagazine.blogspot.com.tr/2016/12/revive-las-viejas-game-watch-con-1fps.html][RetroManiac Magazine]]
+
+* Monetization Permission
+6x13 Games allows for  the contents of this page to  be published through video
+broadcasting   services  for   any  commercial   or  non-commercial   purposes.
+Monetization of videos created containing assets  from this page is legally and
+explicitly allowed by 6x13 Games.
+
+* Additional Links
+#+BEGIN_EXPORT html
+<p>
+<a href="http://www.twitter.com/kenanbolukbasi"><i class="fa fa-twitter"></i> Kenan Bölükbaşı</a><br />
+<a href="http://www.twitter.com/tughanyalgin"><i class="fa fa-twitter"></i> Tuğhan Yalgın</a><br />
+</p>
+#+END_EXPORT
+
+* Team
+- Kenan Bölükbaşı ::
+  - Founder
+  - Developer
+  - Game Designer
+  - Graphic Designer
+- Tuğhan Yalgın ::
+  - Game Designer
+
+* Contact
+- Web :: [[root][6x13.com]]
+
+- E-mail :: [[mailto:contact@6x13.com][contact@6x13.com]]
+
+- Twitter :: [[twitter:6x13games][@6x13games]]
+
+- Facebook :: [[facebook:6x13games][6x13games]]

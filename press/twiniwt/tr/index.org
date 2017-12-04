@@ -1,0 +1,227 @@
+#+TITLE: Twiniwt Basın Kiti
+#+AUTHOR: Kenan Bölükbaşı
+#+EMAIL: mailto:press@6x13.com
+#+SETUPFILE: ../../theme/setup.org
+#+LINK: root http://6x13.com/
+#+LINK: this http://6x13.com/press/twiniwt/
+# #+LINK: root http://localhost:8000/
+# #+LINK: this http://localhost:8000/press/twiniwt/
+#+LINK: wikipedia https://en.wikipedia.org/wiki/
+#+LINK: twitter https://www.twitter.com/
+#+LINK: facebook https://www.facebook.com/
+
+#+TOC: headlines 3
+#+HTML: <div class="outline-2" id="meta">
+[[this:img/header.png]]
+#+ATTR_HTML: :style width:100%;
+| *Basın/İş İletişim* | {{{author}}} ({{{email}}})    |
+| *Tarih*             | {{{time(%Y-%m-%d)}}}   |
+#+HTML: </div>
+
+* Genel Bilgiler
+- Yapımcı :: [[root:press/6x13games/tr/][6x13 Games]]
+- Çıkış Tarihi :: 3 Ağustos 2017
+- Platformlar :: Tüm Store link'leri [[root][6x13.com]] adresinde mevcuttur.
+  - App Store (iOS - macOS)
+  - Google Play
+  - Amazon App Store
+  - Windows Store
+  - PC / Mac / Linux (WIP)
+- Tanınırlık ::  AppStore Türkiye'de anasayfada, dünyada  da Puzzle ve
+     Board kategorilerinde öne çıkanlarda.
+- Websitesi :: [[root][6x13.com]]
+- Fiyatı :: Ücretsiz (Free to Play)
+- Basın/İş İletişim :: [[mailto:press@6x13.com][press@6x13.com]]
+
+* Tanıtım
+Twiniwt,  içerdiği yüzlerce  bulmacayı  çözerken bir  yandan da  müzik
+yaptığınız,  kendi  türünü  tanımlayan   özgün  bir  simetrik  hareket
+bulmacasıdır.
+
+250'den fazla bulmaca  boyunca simetri hem dostunuz  hem de düşmanınız
+olacak. Twiniwt'de  eğer bir taşı oynatırsanız,  diğer bölgedeki ikizi
+de  simetrik olarak  hareket  edecektir; fakat  taşı  başka bir  taşla
+ittirmeniz halinde ikizi olan taş hareket etmez.  Taşların hedeflerine
+olan pozisyonu  simetrik olarak  aynıyken işler  çok da  zor değildir,
+pozisyonlar görece  farklı olduğunda  ise durum zorlaşacak  ve taşları
+ittirerek doğru konuma getirmeniz gerekecek.
+
+Ek olarak  taşları hedeflerine  yerleştirmeye çalıştığınız  oyun alanı
+döngüseldir. Bir taş bölge sınırlarından dışarı hareket ettiğinde veya
+ittirildiğinde     diğer     taraftan     çıkarak     yoluna     devam
+edecektir. Dolayısıyla  her bölgeyi  sonsuz, döngüsel bir  alan olarak
+hayal etmeniz gerek.
+
+Oyunun içerdiği yüzlerce bulmacayı  çözerken, oyuna çeşitlilik getiren
+pek çok yan mekanikle de karşılaşacaksınız:
+- Döngüselliği iyi kullanmayı gerektiren asimetrik bölgeler.
+- Algı gücünüze meydan okuyan 4'lü bölgeler ve 5'e kadar çıkabilen taş
+  sayısı.
+- Yalnızca belli yönlere gidebilen kısıtlı harekete sahip taşlar.
+- Yalnızca ittirilebilen pasif taşlar.
+- Üzerine oturan taşı kilitleyen pasif hedefler.
+- Düşünmek için az zaman veren süre kısıtlı bulmacalar.
+- Toplandığında fazladan hamle hakkı veren artılar.
+
+Twiniwt'in bulmacaları belli bir  sırada gitmek istemeyen oyuncular da
+düşünülerek tasarlanmıştır. Baştaki bulmaca sıralamasının, oyunu doğru
+öğrenmek  adına   takip  edilmesini  önersek  de,   her  bölümdeki  10
+bulmacadan   7'sini  çözmek   bir  sonraki   bölüme  ilerlemek   adına
+yeterlidir. Böylece  çok takıldığınız  bir bölümü bir  süreliğine terk
+etmek istediğinizde, oyunda ilerlemeye devam etmeniz olasıdır.
+
+Twiniwt,  renk  seçimlerinde  erken  20. yüzyıl  De  Stijl  akımından,
+arkaplan görsellerinde 80'lerin retro oyunlarından esinlenir.
+
+* Tarihçe
+2015   baharında  6x13   ekibi,   ilerideki  projelerinin   iskeletini
+oluşturacak yapı için test niteliği taşıyan mütevazi (fakat eğlenceli)
+1FPS: Retro Oyun Serisi üzerinde çalışmaktaydı.
+
+Yapım  sürecindeki bir  toplantıda Tuğhan  Yalgın, sıradaki  niş proje
+öncesinde daha geniş  kitlelere ulaşmak adına genele  hitap edecek bir
+bulmaca oyunu yapmayı önerdi.   Bunun üzerine Kenan Bölükbaşı, Twiniwt
+fikrini  ortaya  atarak  temel  mekanikleri  ve  oyun  alanı  yapısını
+açıkladı.
+
+Prototip  aşamasında, eğlence  ve tiryakilik  adına yüksek  potansiyel
+gösteren fikrin, farklı bulmaca türleri ve yeni tamamlayıcı mekanikler
+için de genişlemeye müsait, özgür bir alan sunduğu görüldü.
+
+Oynanabilirlik  ve ek  mekaniklerin  oyun  temeline katkıları,  uyumu,
+oyuna ekleme  maliyetleri üzerine iki  aya yakın süre  tartışan ekibin
+oyunu  kağıt üzerinde  mükemmelleştirmesi  için  tonlarca test  bölümü
+denendi ve beyin fırtınaları yapıldı.
+
+Bunları  takiben  odağını  tekrar  1FPS  projesine  ve  temel  yapının
+tamamlanmasına  kaydıran   ekip,  1  Kasım  2016'da   1FPS  oyunlarını
+yayınladıktan sonra tamamen Twiniwt projesine odaklandılar.
+
+İki  yıl   ve  bağımsız  yapımcı  olmanın   getirdiği  binlerce  sorun
+sonrasında Twiniwt tamamlanmıştı.
+
+* Özellikler
+- Sadece İki Basit Kural ::
+Bir taşı oynatırsanız  ikizi de simetrik olarak hareket  eder. Ama bir
+taşı başka bir taşla ittirirseniz ikizi hareket etmez.
+
+- 250'den Fazla Eğlenceli Bölüm ::
+Çeşitlilik  dolu   ve  eğlenceli  yüzlerce  bölüm.   İlerledikçe  yeni
+mekanikler sizi karşılayacak.
+
+- Müzik Sizin Ellerinizde ::
+Bölümlerin müziğini taşları hareket  ettirdikçe siz bestelersiniz. Her
+karenin kendi notası var!
+
+- Sıkıcı Bekleme Mekanikleri Yok ::
+İstediğiniz zaman, istediğiniz kadar oynayın. Can yok, hak isteme yok.
+
+- İstediğiniz Bulmacadan Başlayabilirsiniz ::
+Oyundaki bölümler  size belli  bir sıra dayatmaz.  Bir bölümde  çok mu
+takıldınız? Sonrakine geçin!
+
+- Tekrar Tekrar Oynanabilir İçerik ::
+Bulmacaların  birden  fazla doğru  çözümü  var.  En iyi  sonuca  nasıl
+ulaştığınız  size  kalmış.  Belki   editörden  bile  daha  az  hamlede
+çözersiniz!
+
+- Göz Doyurucu Görseller ::
+De Stijl akımından ilham alan renkler ve huzur veren görseller.
+
+* Projeler
+Twiniwt  öncesinde  6x13  ekibi, konsepti  retro  oyun  konsollarından
+esinlenen 3  adet oyundan oluşan  "1FPS: Retro Oyun  Serisi"ni markete
+sunmuştur:
+- 1FPS: Fastfood
+- 1FPS: Invaders
+- 1FPS: Vacuum
+
+Bu projelerin basın kitleri için:
+http://6x13.com/press/1fps/tr/
+
+İndirme bağlantıları için:
+http://6x13.com/
+
+* Videolar
+#+BEGIN_EXPORT html
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LrCJdl_sFNo" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9zNaNOoVYHs" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/e0Jt83_G9k4" frameborder="0" allowfullscreen></iframe>
+#+END_EXPORT
+
+* Logo & İkon
+[[this:zip/icons-logos.zip][Tüm ikon ve logoları zip dosyası içinde indirin.]]
+
+| [[this:img/icon-twiniwt.png]] | [[this:img/logo-twiniwt.png]] |
+
+* Ekran Görüntüleri
+[[this:zip/screenshots.zip][Tüm ekran görüntülerini zip dosyası içinde indirin.]]
+
+| [[this:img/capture/01tw-fs8.png]] | [[this:img/capture/02tw-fs8.png]] |
+| [[this:img/capture/03tw-fs8.png]] | [[this:img/capture/04tw-fs8.png]] |
+| [[this:img/capture/05tw-fs8.png]] | [[this:img/capture/06tw-fs8.png]] |
+
+* Ödüller ve Tanınırlık
+- AppStore  Türkiye'de   anasayfada,  dünyada   da  Puzzle   ve  Board
+  kategorilerinde öne çıkanlar listelerinde yer aldı.
+
+* Geri Bildirim ve Yorumlar
+- Smart, unique and  fun. Art is awesome, level design  & game play is
+  flawless. I can't stop playing!
+  - Duygu Çakmak, Creative Assembly
+
+- Bringing a  different perspective  to the  genre. Brief  but thought
+  igniting levels. Super  creative soundtrack. Fun to  play in between
+  things. Strongly recommended for puzzle lovers.
+  - Deniz Arın, ASML
+
+- Perfect time killer!
+  - Alexander Kamentsev, Creative Assembly
+
+* Ticari Kullanım İzni
+6x13  Games,  bu sayfanın  içeriklerinin  ticari  veya ticari  olmayan
+amaçlarla  basında  yayınlanmasına   izin  vermektedir.  Bu  sayfadaki
+içerikleri  bünyesinde  bulunduran  kar amaçlı  yayınlara  kanunen  ve
+açıkça 6x13 Games tarafından izin verilmektedir.
+
+* Ek Bağlantılar
+#+BEGIN_EXPORT html
+<p>
+<a href="http://www.twitter.com/kenanbolukbasi"><i class="fa fa-twitter"></i> Kenan Bölükbaşı</a><br />
+<a href="http://www.twitter.com/tughanyalgin"><i class="fa fa-twitter"></i> Tuğhan Yalgın</a><br />
+</p>
+#+END_EXPORT
+
+* 6x13 Games Hakkında
+** Kısa Tanıtım Metni
+6x13 Games, güncel olarak Kenan Bölükbaşı ve Tuğhan Yalgın'dan oluşan,
+İstanbul-Türkiye'de bulunan bağımsız bir oyun yapım stüdyosudur.
+
+** Ek Bilgi
+6x13 Games hakkında daha fazla bilgi, logo ve ilgili materyale [[root:press/6x13games/tr/][buradan]]
+ulaşabilirsiniz.
+
+* Ekip
+- Kenan Bölükbaşı :: Kurucu, 6x13 Games
+  - Proje Lideri
+  - Oyun Tasarımcısı
+  - Geliştirici
+  - Multimedia Geliştirici
+  - Grafik Tasarımcısı
+  - UI & UX Tasarımcısı
+
+- Tuğhan Yalgın :: 6x13 Games
+  - Bölüm Tasarımcısı
+  - Progresyon Tasarımcısı
+  - Ses Tasarımcısı
+  - QA ve Oyun Testleri
+  - İçerik Yazarı
+
+* İletişim
+- Web Sitesi :: [[root][6x13.com]]
+
+- E-posta :: [[mailto:contact@6x13.com][contact@6x13.com]]
+
+- Twitter :: [[twitter:6x13games][@6x13games]]
+
+- Facebook :: [[facebook:6x13games][6x13games]]
